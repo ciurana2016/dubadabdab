@@ -1,0 +1,4 @@
+request with headers makes the destil block pop up,
+lets see the js code.
+
+destil_01.html --> /schbstddstl.js
