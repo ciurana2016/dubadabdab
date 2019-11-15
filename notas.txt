@@ -2,3 +2,466 @@ request with headers makes the destil block pop up,
 lets see the js code.
 
 destil_01.html --> /schbstddstl.js
+
+** API.INFOJOBNS ???
+
+https://dnsdumpster.com/
+DNS Servers
+
+ns-1066.awsdns-05.org.
+        205.251.196.42
+ns-1066.awsdns-05.org   AMAZON-02 - Amazon.com, Inc.
+United States
+ns-1965.awsdns-53.co.uk.
+        205.251.199.173
+ns-1965.awsdns-53.co.uk AMAZON-02 - Amazon.com, Inc.
+United States
+ns-210.awsdns-26.com.
+        205.251.192.210
+ns-210.awsdns-26.com    AMAZON-02 - Amazon.com, Inc.
+United States
+ns-780.awsdns-33.net.
+        205.251.195.12
+ns-780.awsdns-33.net    AMAZON-02 - Amazon.com, Inc.
+United States
+MX Records ** This is where email for the domain goes...
+
+1 aspmx.l.google.com.
+    173.194.66.26
+qo-in-f26.1e100.net GOOGLE - Google LLC
+United States
+10 alt3.aspmx.l.google.com.
+    172.253.120.26
+GOOGLE - Google LLC
+United States
+10 alt4.aspmx.l.google.com.
+    172.217.218.26
+GOOGLE - Google LLC
+United States
+5 alt1.aspmx.l.google.com.
+    64.233.186.26
+cb-in-f26.1e100.net GOOGLE - Google LLC
+United States
+5 alt2.aspmx.l.google.com.
+    209.85.202.26
+dg-in-f26.1e100.net GOOGLE - Google LLC
+United States
+TXT Records ** Find more hosts in Sender Policy Framework (SPF) configurations
+
+"v=spf1 ip4:79.171.25.64/28 ip4:79.171.25.50 ip4:79.171.25.41 ip4:79.171.25.40 ip4:80.26.86.198 ip4:82.159.145.29 Ip4:142.54.40.141 Ip4:142.54.40.142 Ip4:142.54.40.143 include:_spf.google.com include:_spf.salesforce.com ~all"
+"segment-site-verification=L3f0F062iGcwoICTj0Dg6uFy4D5Z0nop"
+"jlXKaCI6TfBL7kOATwimctI+z2h6CtxvBDKoHEkbe2dMBXkuvY0nokRAEeQ+uYQqlOCAQvaP0Uq4tFukjYzoZVw=="
+"google-site-verification=qkD2f8P8pR2_NVK6BqMJ275A5rnEsLdWT0JI3dfBo8U"
+"google-site-verification=o-V-gC1zGh5y8PaidCrMAMdz7otulFhmLwVJi-KacG8"
+"_globalsign-domain-verification=tX2bajFHsvIrItHffMqtw_ldHo-hxch9MZMJXxLNjl"
+Host Records (A) ** this data may not be current as it uses a static database (updated monthly)
+
+infojobs.net
+        13.249.44.104
+server-13-249-44-104.iad89.r.cloudfront.net AMAZON-02 - Amazon.com, Inc.
+United States
+comunicaciones00.infojobs.net
+        79.171.27.25
+comunicaciones00.infojobs.net   IJ-AS IJ autonomous system
+Spain
+push10.infojobs.net
+        79.171.25.78
+push10.infojobs.net IJ-AS IJ autonomous system
+Spain
+push20.infojobs.net
+        79.171.27.30
+push20.infojobs.net IJ-AS IJ autonomous system
+Spain
+push30.infojobs.net
+        79.171.27.45
+push30.infojobs.net IJ-AS IJ autonomous system
+Spain
+push0.infojobs.net
+        79.171.25.68
+push0.infojobs.net  IJ-AS IJ autonomous system
+Spain
+formacion0.infojobs.net
+        79.171.27.52
+formacion0.infojobs.net IJ-AS IJ autonomous system
+Spain
+accounts0.infojobs.net
+        79.171.27.46
+accounts0.infojobs.net  IJ-AS IJ autonomous system
+Spain
+comunicaciones01.infojobs.net
+        79.171.27.26
+comunicaciones01.infojobs.net   IJ-AS IJ autonomous system
+Spain
+push11.infojobs.net
+        79.171.27.21
+push11.infojobs.net IJ-AS IJ autonomous system
+Spain
+push21.infojobs.net
+        79.171.27.36
+push21.infojobs.net IJ-AS IJ autonomous system
+Spain
+push1.infojobs.net
+        79.171.25.69
+push1.infojobs.net  IJ-AS IJ autonomous system
+Spain
+formacion1.infojobs.net
+        79.171.27.53
+formacion1.infojobs.net IJ-AS IJ autonomous system
+Spain
+dns1.infojobs.net
+        79.171.24.4
+dns1.infojobs.net   IJ-AS IJ autonomous system
+Spain
+accounts1.infojobs.net
+        79.171.27.47
+accounts1.infojobs.net  IJ-AS IJ autonomous system
+Spain
+comunicaciones02.infojobs.net
+        79.171.27.27
+comunicaciones02.infojobs.net   IJ-AS IJ autonomous system
+Spain
+push12.infojobs.net
+        79.171.27.22
+push12.infojobs.net IJ-AS IJ autonomous system
+Spain
+push22.infojobs.net
+        79.171.27.37
+push22.infojobs.net IJ-AS IJ autonomous system
+Spain
+videomad2.infojobs.net
+        82.159.145.20
+82.159.145.20.static.user.ono.com   ONO-AS Cableuropa - ONO
+Spain
+push2.infojobs.net
+        79.171.25.70
+push2.infojobs.net  IJ-AS IJ autonomous system
+Spain
+formacion2.infojobs.net
+        79.171.27.54
+formacion2.infojobs.net IJ-AS IJ autonomous system
+Spain
+dns2.infojobs.net
+        79.171.25.4
+dns2.infojobs.net   IJ-AS IJ autonomous system
+Spain
+accounts2.infojobs.net
+        79.171.27.48
+accounts2.infojobs.net  IJ-AS IJ autonomous system
+Spain
+comunicaciones03.infojobs.net
+        79.171.27.40
+comunicaciones03.infojobs.net   IJ-AS IJ autonomous system
+Spain
+push13.infojobs.net
+        79.171.27.23
+push13.infojobs.net IJ-AS IJ autonomous system
+Spain
+push23.infojobs.net
+        79.171.27.38
+push23.infojobs.net IJ-AS IJ autonomous system
+Spain
+push3.infojobs.net
+        79.171.25.71
+push3.infojobs.net  IJ-AS IJ autonomous system
+Spain
+comunicaciones04.infojobs.net
+        79.171.27.41
+comunicaciones04.infojobs.net   IJ-AS IJ autonomous system
+Spain
+push14.infojobs.net
+        79.171.27.24
+push14.infojobs.net IJ-AS IJ autonomous system
+Spain
+push24.infojobs.net
+        79.171.27.39
+push24.infojobs.net IJ-AS IJ autonomous system
+Spain
+push4.infojobs.net
+        79.171.25.72
+push4.infojobs.net  IJ-AS IJ autonomous system
+Spain
+comunicaciones05.infojobs.net
+        79.171.27.42
+comunicaciones05.infojobs.net   IJ-AS IJ autonomous system
+Spain
+push5.infojobs.net
+        79.171.25.73
+push5.infojobs.net  IJ-AS IJ autonomous system
+Spain
+push6.infojobs.net
+        79.171.25.74
+push6.infojobs.net  IJ-AS IJ autonomous system
+Spain
+push7.infojobs.net
+        79.171.25.75
+push7.infojobs.net  IJ-AS IJ autonomous system
+Spain
+push18.infojobs.net
+        79.171.27.28
+push18.infojobs.net IJ-AS IJ autonomous system
+Spain
+push28.infojobs.net
+        79.171.27.43
+push28.infojobs.net IJ-AS IJ autonomous system
+Spain
+push8.infojobs.net
+        79.171.25.76
+push8.infojobs.net  IJ-AS IJ autonomous system
+Spain
+push19.infojobs.net
+        79.171.27.29
+push19.infojobs.net IJ-AS IJ autonomous system
+Spain
+push29.infojobs.net
+        79.171.27.44
+push29.infojobs.net IJ-AS IJ autonomous system
+Spain
+push9.infojobs.net
+        79.171.25.77
+push9.infojobs.net  IJ-AS IJ autonomous system
+Spain
+media.infojobs.net
+        52.84.246.197
+server-52-84-246-197.sfo20.r.cloudfront.net AMAZON-02 - Amazon.com, Inc.
+United States
+plandecarrera.infojobs.net
+    
+HTTP: BigIP 79.171.26.15
+plandecarrera.infojobs.net  IJ-AS IJ autonomous system
+Spain
+owa.infojobs.net
+        79.171.25.40
+correo-a.infojobs.net   IJ-AS IJ autonomous system
+Spain
+soc.infojobs.net
+        79.171.26.32
+soc.infojobs.net    IJ-AS IJ autonomous system
+Spain
+r210.ads.schibsted.infojobs.net
+        172.82.231.210
+r210.news.adevinta.fotocasa.es  OMNITURE - Adobe Systems Inc.
+United States
+r211.ads.schibsted.infojobs.net
+        172.82.231.211
+r211.news.adevinta.fotocasa.es  OMNITURE - Adobe Systems Inc.
+United States
+r212.ads.schibsted.infojobs.net
+        172.82.231.212
+r212.news.adevinta.fotocasa.es  OMNITURE - Adobe Systems Inc.
+United States
+r213.ads.schibsted.infojobs.net
+        172.82.231.213
+r213.news.adevinta.fotocasa.es  OMNITURE - Adobe Systems Inc.
+United States
+r206.ads.schibsted.infojobs.net
+        172.82.231.206
+r206.news.adevinta.fotocasa.es  OMNITURE - Adobe Systems Inc.
+United States
+r207.ads.schibsted.infojobs.net
+        172.82.231.207
+r207.news.adevinta.fotocasa.es  OMNITURE - Adobe Systems Inc.
+United States
+r208.ads.schibsted.infojobs.net
+        172.82.231.208
+r208.news.adevinta.fotocasa.es  OMNITURE - Adobe Systems Inc.
+United States
+r209.ads.schibsted.infojobs.net
+        172.82.231.209
+r209.news.adevinta.fotocasa.es  OMNITURE - Adobe Systems Inc.
+United States
+freelance.infojobs.net
+        13.33.147.122
+server-13-33-147-122.sea4.r.cloudfront.net  AMAZON-02 - Amazon.com, Inc.
+United States
+push00.freelance.infojobs.net
+        79.171.27.55
+push00.freelance.infojobs.net   IJ-AS IJ autonomous system
+Spain
+push01.freelance.infojobs.net
+        79.171.27.56
+push01.freelance.infojobs.net   IJ-AS IJ autonomous system
+Spain
+push02.freelance.infojobs.net
+        79.171.27.57
+push02.freelance.infojobs.net   IJ-AS IJ autonomous system
+Spain
+remote.infojobs.net
+        79.171.24.19
+IJ-AS IJ autonomous system
+Spain
+streaming.infojobs.net
+        79.171.25.47
+streaming.infojobs.net  IJ-AS IJ autonomous system
+Spain
+rrhh.infojobs.net
+    
+SSH: SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u6
+HTTP TECH: Debian
+Apache,2.4.25
+HTTPS TECH: Debian
+Apache,2.4.25   104.155.7.120
+120.7.155.104.bc.googleusercontent.com  GOOGLE - Google LLC
+United States
+push.infojobs.net
+        79.171.25.68
+push0.infojobs.net  IJ-AS IJ autonomous system
+Spain
+oi.infojobs.net
+        82.159.145.22
+82.159.145.22.static.user.ono.com   ONO-AS Cableuropa - ONO
+Spain
+api.infojobs.net
+        52.30.125.112
+ec2-52-30-125-112.eu-west-1.compute.amazonaws.com   AMAZON-02 - Amazon.com, Inc.
+Ireland
+orientacion-laboral.infojobs.net
+    
+FTP: 220-##############################################
+HTTP TECH: nginx
+HTTPS TECH: nginx   107.6.150.170
+esm1335.sgded.com   SINGLEHOP-LLC - SingleHop LLC
+Netherlands
+m.infojobs.net
+        52.84.246.180
+server-52-84-246-180.sfo20.r.cloudfront.net AMAZON-02 - Amazon.com, Inc.
+United States
+videobcn.infojobs.net
+        82.159.145.27
+82.159.145.27.static.user.ono.com   ONO-AS Cableuropa - ONO
+Spain
+developer-admin.infojobs.net
+        79.171.26.52
+developer-admin.infojobs.net    IJ-AS IJ autonomous system
+Spain
+primerempleo.infojobs.net
+        79.171.26.55
+orientacion-laboral.infojobs.net    IJ-AS IJ autonomous system
+Spain
+personal7.ofertas-trabajo.infojobs.net
+        13.32.253.208
+server-13-32-253-208.sea19.r.cloudfront.net AMAZON-02 - Amazon.com, Inc.
+United States
+santalucia.ofertas-trabajo.infojobs.net
+        52.84.246.145
+server-52-84-246-145.sfo20.r.cloudfront.net AMAZON-02 - Amazon.com, Inc.
+United States
+globalia.ofertas-trabajo.infojobs.net
+        13.33.147.243
+server-13-33-147-243.sea4.r.cloudfront.net  AMAZON-02 - Amazon.com, Inc.
+United States
+assystem-iberia.ofertas-trabajo.infojobs.net
+        13.224.29.105
+server-13-224-29-105.sea19.r.cloudfront.net AMAZON-02 - Amazon.com, Inc.
+United States
+necsia.ofertas-trabajo.infojobs.net
+        13.33.147.243
+server-13-33-147-243.sea4.r.cloudfront.net  AMAZON-02 - Amazon.com, Inc.
+United States
+oesia.ofertas-trabajo.infojobs.net
+        52.84.246.145
+server-52-84-246-145.sfo20.r.cloudfront.net AMAZON-02 - Amazon.com, Inc.
+United States
+altia.ofertas-trabajo.infojobs.net
+        13.224.2.2
+server-13-224-2-2.sea19.r.cloudfront.net    AMAZON-02 - Amazon.com, Inc.
+United States
+brujula.ofertas-trabajo.infojobs.net
+        13.33.147.243
+server-13-33-147-243.sea4.r.cloudfront.net  AMAZON-02 - Amazon.com, Inc.
+United States
+lupa.ofertas-trabajo.infojobs.net
+        13.32.253.208
+server-13-32-253-208.sea19.r.cloudfront.net AMAZON-02 - Amazon.com, Inc.
+United States
+durofelguera.ofertas-trabajo.infojobs.net
+        52.84.246.145
+server-52-84-246-145.sfo20.r.cloudfront.net AMAZON-02 - Amazon.com, Inc.
+United States
+atmira.ofertas-trabajo.infojobs.net
+        13.224.2.2
+server-13-224-2-2.sea19.r.cloudfront.net    AMAZON-02 - Amazon.com, Inc.
+United States
+avalora.ofertas-trabajo.infojobs.net
+        13.33.147.243
+server-13-33-147-243.sea4.r.cloudfront.net  AMAZON-02 - Amazon.com, Inc.
+United States
+cooltra.ofertas-trabajo.infojobs.net
+        13.224.29.105
+server-13-224-29-105.sea19.r.cloudfront.net AMAZON-02 - Amazon.com, Inc.
+United States
+mutuamontanesa.ofertas-trabajo.infojobs.net
+        52.84.246.145
+server-52-84-246-145.sfo20.r.cloudfront.net AMAZON-02 - Amazon.com, Inc.
+United States
+ayesa.ofertas-trabajo.infojobs.net
+        13.33.147.243
+server-13-33-147-243.sea4.r.cloudfront.net  AMAZON-02 - Amazon.com, Inc.
+United States
+vegalsa.ofertas-trabajo.infojobs.net
+        52.84.246.145
+server-52-84-246-145.sfo20.r.cloudfront.net AMAZON-02 - Amazon.com, Inc.
+United States
+planeta.ofertas-trabajo.infojobs.net
+        52.84.246.145
+server-52-84-246-145.sfo20.r.cloudfront.net AMAZON-02 - Amazon.com, Inc.
+United States
+grupofemxa.ofertas-trabajo.infojobs.net
+        13.224.29.105
+server-13-224-29-105.sea19.r.cloudfront.net AMAZON-02 - Amazon.com, Inc.
+United States
+grupobc.ofertas-trabajo.infojobs.net
+        52.84.246.145
+server-52-84-246-145.sfo20.r.cloudfront.net AMAZON-02 - Amazon.com, Inc.
+United States
+racc.ofertas-trabajo.infojobs.net
+        13.33.147.243
+server-13-33-147-243.sea4.r.cloudfront.net  AMAZON-02 - Amazon.com, Inc.
+United States
+s21sec.ofertas-trabajo.infojobs.net
+        13.33.147.243
+server-13-33-147-243.sea4.r.cloudfront.net  AMAZON-02 - Amazon.com, Inc.
+United States
+exceltic.ofertas-trabajo.infojobs.net
+        52.84.246.145
+server-52-84-246-145.sfo20.r.cloudfront.net AMAZON-02 - Amazon.com, Inc.
+United States
+grupocmc.ofertas-trabajo.infojobs.net
+        13.33.147.243
+server-13-33-147-243.sea4.r.cloudfront.net  AMAZON-02 - Amazon.com, Inc.
+United States
+antservicalidad.ofertas-trabajo.infojobs.net
+        52.84.246.145
+server-52-84-246-145.sfo20.r.cloudfront.net AMAZON-02 - Amazon.com, Inc.
+United States
+keyland.ofertas-trabajo.infojobs.net
+        52.84.246.145
+server-52-84-246-145.sfo20.r.cloudfront.net AMAZON-02 - Amazon.com, Inc.
+United States
+marionnaud.ofertas-trabajo.infojobs.net
+        52.84.246.145
+server-52-84-246-145.sfo20.r.cloudfront.net AMAZON-02 - Amazon.com, Inc.
+United States
+mbe.ofertas-trabajo.infojobs.net
+        52.84.246.145
+server-52-84-246-145.sfo20.r.cloudfront.net AMAZON-02 - Amazon.com, Inc.
+United States
+mtngexperience.ofertas-trabajo.infojobs.net
+        52.84.246.145
+server-52-84-246-145.sfo20.r.cloudfront.net AMAZON-02 - Amazon.com, Inc.
+United States
+inside.ofertas-trabajo.infojobs.net
+        52.84.246.145
+server-52-84-246-145.sfo20.r.cloudfront.net AMAZON-02 - Amazon.com, Inc.
+United States
+thinkingpeople.ofertas-trabajo.infojobs.net
+        13.33.147.243
+server-13-33-147-243.sea4.r.cloudfront.net  AMAZON-02 - Amazon.com, Inc.
+United States
+talentsearchpeople.ofertas-trabajo.infojobs.net
+        13.33.147.243
+server-13-33-147-243.sea4.r.cloudfront.net  AMAZON-02 - Amazon.com, Inc.
+United States
+wottoline.ofertas-trabajo.infojobs.net
+        52.84.246.145
+server-52-84-246-145.sfo20.r.cloudfront.net AMAZON-02 - Amazon.com, Inc.
+United States
