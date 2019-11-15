@@ -3,6 +3,8 @@ lets see the js code.
 
 destil_01.html --> /schbstddstl.js
 
+https://www.rapidtables.com/convert/number/hex-to-ascii.html poniendo \0a al final de cada uno
+
 ** API.INFOJOBNS ???
 
 https://dnsdumpster.com/
