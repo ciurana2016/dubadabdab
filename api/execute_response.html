@@ -1,0 +1,844 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/xhtml1-strict.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <title>
+   InfoJobs Developer Site - Test Console
+  </title>
+  <meta content="Infojobs Developer Site" name="Description"/>
+  <meta content="Infojobs Developer Site" name="Keywords"/>
+  <script src="//developer.infojobs.net/func_alerta_error_jsp.js" type="text/javascript">
+  </script>
+  <script src="//developer.infojobs.net/general_01.js" type="text/javascript">
+  </script>
+  <script src="//developer.infojobs.net/jquery.js" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   //<![CDATA[
+_currentLocale = "en";// ]]>
+  </script>
+  <script type="text/javascript">
+   //<![CDATA[
+ var _portalImgPath = "/img/";
+// ]]>
+  </script>
+  <script type="text/javascript">
+   //<![CDATA[
+if (typeof objThicboxIncludedXXYZ == "undefined") {
+  var objThicboxIncludedXXYZ = new String();
+  var srcJQuery = "//developer.infojobs.net/jquery.js";
+  var srcCssThickbox = "//developer.infojobs.net/thickbox.css";
+  document.write("<link rel='stylesheet' type='text/css' href='" + srcCssThickbox + "'/>");
+  document.write("<script type='text/javascript' src='"+srcJQuery+"'><\/script>");
+  function entrarThickBox(caption,url,ancho,alto,options) {
+ if(!url.indexOf("http")==0){  url = '//' + document.domain + '/' + url; }
+    if (jQuery('#overlay').length != 0) { jQuery('#overlay').empty().remove(); }
+    alto = alto*1 + 42;
+    ancho = ancho*1 + 29;
+    var iFrameParams = 'id="TB_iframeContent" name="TB_iframeContent" style="width:'+ ancho +'px;height:'+ alto +'px;" src="'+url+'" frameborder="0" hspace="0"';
+    if (!!options && !!options.disableScrolling) { iFrameParams += " scrolling='no' ";}
+    var overlayParams = { load: true, fixed: false, mask: { color:'#000000',loadSpeed: 200,opacity: 0.6}, closeOnClick: false };
+    if (!!options) { jQuery.extend(overlayParams, options); }
+    jQuery('body').append('<div id="overlay"><iframe ' + iFrameParams + '></iframe></div>');
+    jQuery('#overlay').overlay(overlayParams);
+  }
+}
+function tb_remove() { jQuery('#overlay').overlay().close(); }
+function tb_updatePosition(width, height) {
+var cssSize = {};
+if (width > 0) { cssSize.width = width + 'px';}
+if (height > 0) {cssSize.height= height + 'px';}
+jQuery('#TB_iframeContent').css(cssSize);
+}
+function addOnCloseThickBoxEvent(eventFunction) { jQuery('#overlay').bind('onClose',eventFunction); }
+function setExclusiveOnCloseThickBoxEvent(event) { jQuery('#overlay').unbind('onClose'); jQuery('#overlay').bind('onClose',event); }
+function addOnBeforeCloseThickBoxEvent(eventFunction) { jQuery('#overlay').bind('onBeforeClose',eventFunction); }
+function setExclusiveOnBeforeCloseThickBoxEvent(eventFunction) { jQuery('#overlay').unbind('onBeforeClose'); jQuery('#overlay').bind('onBeforeClose',eventFunction); }
+function setCloseEvent(event) { jQuery('#overlay').bind('onClose',event); }
+function setNewEvent(event) { jQuery('#overlay').unbind('onClose'); jQuery('#overlay').bind('onClose',event); }
+// ]]>
+  </script>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+  <script src="//developer.infojobs.net/func_open_window.js" type="text/javascript">
+  </script>
+  <script src="//developer.infojobs.net/presentacion/test_console/console.js" type="text/javascript">
+  </script>
+  <link href="/styles/Portales/ij/portal.css" rel="stylesheet" type="text/css"/>
+  <link href="/styles/dev-site.css" rel="stylesheet" type="text/css"/>
+  <link href="//developer.infojobs.net/styles/api-console.css" rel="stylesheet" type="text/css"/>
+  <script type="text/javascript">
+   var BASE_API_URL = 'https://api.infojobs.net';
+        var BASE_API_TEST_URL = 'accounts.infojobs.net';
+
+        var response = false;
+        var request = '';
+        var selectedTab = '';
+        var parametersNumber = 1;
+        var headersNumber = 1;
+
+        var selectedOperationList;
+        var entityCatalog;
+
+        var authenticationRequired = 'false';
+        var authenticationURL = '';
+
+        $(document).ready(function() {
+            entityCatalog = {"-candidate-skillcategory":{"LIST":{"defaultVersion":1,"operations":{"1":{"id":9727,"url":"/api/1/candidate/skillcategory","method":"GET","description":"Returns a tree with all the skill categories available","version":"1","role":"PUBLIC","scope":"NONE","visible":true,"active":true,"isOpList":false,"documentationUrl":"/documentation/operation/candidate-skillcategory-list-1.xhtml","entityId":9726,"name":"/candidate/skillcategory","hiddenMethod":"LIST"}}}},"-application-timeline":{"LIST":{"defaultVersion":3,"operations":{"3":{"id":21689,"url":"/api/3/application/{applicationId}/timeline","method":"GET","description":"Returns the candidate's application timeline of the given offer.","version":"3","role":"ROLE_CANDIDATE","scope":"APPLICATION_TIMELINE","visible":true,"active":true,"isOpList":false,"documentationUrl":"/documentation/operation/application-timeline-list-3.xhtml","entityId":565,"name":"/application/{applicationId}/timeline","hiddenMethod":"LIST"}}}},"-curriculum-skill":{"LIST":{"defaultVersion":2,"operations":{"2":{"id":9788,"url":"/api/2/curriculum/{curriculumId}/skill","method":"GET","description":"Gets the curriculum skills","version":"2","role":"ROLE_CANDIDATE","scope":"CANDIDATE_READ_CURRICULUM_SKILLS","visible":true,"active":true,"isOpList":false,"documentationUrl":"/documentation/operation/curriculum-skill-list-2.xhtml","entityId":9744,"name":"/curriculum/{curriculumId}/skill","hiddenMethod":"LIST"}}}},"-dictionary-type":{"GET":{"defaultVersion":1,"operations":{"1":{"id":10046,"url":"/api/1/dictionary/type/{typeId}","method":"GET","description":"Returns all valid elements of the specified dictionary list.","version":"1","role":"PUBLIC","scope":"NONE","visible":true,"active":true,"isOpList":false,"documentationUrl":"/documentation/operation/dictionary-type-get-1.xhtml","entityId":10045,"name":"/dictionary/type/{typeId}","hiddenMethod":"GET"}}}},"-candidate-skill":{"LIST":{"defaultVersion":1,"operations":{"1":{"id":9725,"url":"/api/1/candidate/skill","method":"GET","description":"Returns a list of skilks for a given skill category id","version":"1","role":"PUBLIC","scope":"NONE","visible":true,"active":true,"isOpList":false,"documentationUrl":"/documentation/operation/candidate-skill-list-1.xhtml","entityId":9724,"name":"/candidate/skill","hiddenMethod":"LIST"}}}},"-curriculum-education":{"DELETE":{"defaultVersion":1,"operations":{"1":{"id":17576,"url":"/api/1/curriculum/{curriculumId}/education/{educationId}","method":"DELETE","description":"Retrieves education details for a given CV for the authenticated user.","version":"1","role":"ROLE_CANDIDATE","scope":"CANDIDATE_READ_CURRICULUM_EDUCATION","visible":true,"active":true,"isOpList":false,"documentationUrl":"/documentation/operation/curriculum-education-delete-1.xhtml","entityId":9732,"name":"/curriculum/{curriculumId}/education/{educationId}","hiddenMethod":"DELETE"}}},"GET":{"defaultVersion":1,"operations":{"1":{"id":17575,"url":"/api/1/curriculum/{curriculumId}/education/{educationId}","method":"GET","description":"Retrieves education details for a given CV for the authenticated user.","version":"1","role":"ROLE_CANDIDATE","scope":"CANDIDATE_READ_CURRICULUM_EDUCATION","visible":true,"active":true,"isOpList":false,"documentationUrl":"/documentation/operation/curriculum-education-get-1.xhtml","entityId":9732,"name":"/curriculum/{curriculumId}/education/{educationId}","hiddenMethod":"GET"}}},"LIST":{"defaultVersion":1,"operations":{"1":{"id":9733,"url":"/api/1/curriculum/{curriculumId}/education","method":"GET","description":"Gets the education details of the curriculum","version":"1","role":"ROLE_CANDIDATE","scope":"CANDIDATE_READ_CURRICULUM_EDUCATION","visible":true,"active":true,"isOpList":false,"documentationUrl":"/documentation/operation/curriculum-education-list-1.xhtml","entityId":9732,"name":"/curriculum/{curriculumId}/education","hiddenMethod":"LIST"}}},"PUT":{"defaultVersion":2,"operations":{"2":{"id":17574,"url":"/api/2/curriculum/{curriculumId}/education","method":"PUT","description":"Update education details for a given CV for the authenticated user.","version":"2","role":"ROLE_CANDIDATE","scope":"CANDIDATE_EDIT_CURRICULUM_EDUCATION","visible":true,"active":true,"isOpList":false,"documentationUrl":"/documentation/operation/curriculum-education-put-2.xhtml","entityId":9732,"name":"/curriculum/{curriculumId}/education","hiddenMethod":"PUT"}}}},"-curriculum-futurejob":{"GET":{"defaultVersion":4,"operations":{"4":{"id":10145,"url":"/api/4/curriculum/{curriculumId}/futurejob","method":"GET","description":"Gets the future job fields of the curriculum","version":"4","role":"ROLE_CANDIDATE","scope":"CANDIDATE_READ_CURRICULUM_FUTURE_JOB","visible":true,"active":true,"isOpList":false,"documentationUrl":"/documentation/operation/curriculum-futurejob-get-4.xhtml","entityId":9738,"name":"/curriculum/{curriculumId}/futurejob","hiddenMethod":"GET"}}},"PUT":{"defaultVersion":4,"operations":{"4":{"id":10144,"url":"/api/4/curriculum/{curriculumId}/futurejob","method":"PUT","description":"Updates the future job fields of the curriculum","version":"4","role":"ROLE_CANDIDATE","scope":"CANDIDATE_EDIT_CURRICULUM_FUTURE_JOB","visible":true,"active":true,"isOpList":false,"documentationUrl":"/documentation/operation/curriculum-futurejob-put-4.xhtml","entityId":9738,"name":"/curriculum/{curriculumId}/futurejob","hiddenMethod":"PUT"}}}},"-curriculum-cvtext":{"GET":{"defaultVersion":1,"operations":{"1":{"id":9731,"url":"/api/1/curriculum/{curriculumId}/cvtext","method":"GET","description":"Gets the curriculum in text format","version":"1","role":"ROLE_CANDIDATE","scope":"CANDIDATE_READ_CURRICULUM_CVTEXT","visible":true,"active":true,"isOpList":false,"documentationUrl":"/documentation/operation/curriculum-cvtext-get-1.xhtml","entityId":9729,"name":"/curriculum/{curriculumId}/cvtext","hiddenMethod":"GET"}}},"PUT":{"defaultVersion":1,"operations":{"1":{"id":9730,"url":"/api/1/curriculum/{curriculumId}/cvtext","method":"PUT","description":"Updates the curriculum in text format","version":"1","role":"ROLE_CANDIDATE","scope":"CANDIDATE_EDIT_CURRICULUM_CVTEXT","visible":true,"active":true,"isOpList":false,"documentationUrl":"/documentation/operation/curriculum-cvtext-put-1.xhtml","entityId":9729,"name":"/curriculum/{curriculumId}/cvtext","hiddenMethod":"PUT"}}}},"-candidate":{"GET":{"defaultVersion":2,"operations":{"2":{"id":5790,"url":"/api/2/candidate","method":"GET","description":"Returns account data of the authenticated user.","version":"2","role":"ROLE_CANDIDATE","scope":"CANDIDATE_PROFILE_WITH_EMAIL","visible":true,"active":true,"isOpList":false,"documentationUrl":"/documentation/operation/candidate-get-2.xhtml","entityId":624,"name":"/candidate","hiddenMethod":"GET"}}}},"-coverletter":{"DELETE":{"defaultVersion":1,"operations":{"1":{"id":11828,"url":"/api/1/coverletter/{coverletterId}","method":"DELETE","description":"Removes a coverletter.","version":"1","role":"ROLE_CANDIDATE","scope":"COVER_LETTER_DELETE","visible":true,"active":true,"isOpList":false,"documentationUrl":"/documentation/operation/coverletter-delete-1.xhtml","entityId":567,"name":"/coverletter/{coverletterId}","hiddenMethod":"DELETE"}}},"GET":{"defaultVersion":1,"operations":{"1":{"id":10105,"url":"/api/1/coverletter/{coverletterId}","method":"GET","description":"Returns the candidate's cover letter with the given Id.","version":"1","role":"ROLE_CANDIDATE","scope":"COVER_LETTER_READ","visible":true,"active":true,"isOpList":false,"documentationUrl":"/documentation/operation/coverletter-get-1.xhtml","entityId":567,"name":"/coverletter/{coverletterId}","hiddenMethod":"GET"}}},"LIST":{"defaultVersion":1,"operations":{"1":{"id":568,"url":"/api/1/coverletter","method":"GET","description":"Returns list of cover letters of the authenticated user.","version":"1","role":"ROLE_CANDIDATE","scope":"CV","visible":true,"active":true,"isOpList":false,"documentationUrl":"/documentation/operation/coverletter-list-1.xhtml","entityId":567,"name":"/coverletter","hiddenMethod":"LIST"}}},"PUT":{"defaultVersion":1,"operations":{"1":{"id":10104,"url":"/api/1/coverletter","method":"PUT","description":"Creates a new Cover Letter","version":"1","role":"ROLE_CANDIDATE","scope":"COVER_LETTER_WRITE","visible":true,"active":true,"isOpList":false,"documentationUrl":"/documentation/operation/coverletter-put-1.xhtml","entityId":567,"name":"/coverletter","hiddenMethod":"PUT"}}}},"-curriculum":{"LIST":{"defaultVersion":2,"operations":{"2":{"id":10184,"url":"/api/2/curriculum","method":"GET","description":"Returns list of CVs of the authenticated user.","version":"2","role":"ROLE_CANDIDATE","scope":"CV","visible":true,"active":true,"isOpList":false,"documentationUrl":"/documentation/operation/curriculum-list-2.xhtml","entityId":569,"name":"/curriculum","hiddenMethod":"LIST"}}}},"-curriculum-experience":{"DELETE":{"defaultVersion":1,"operations":{"1":{"id":17579,"url":"/api/1/curriculum/{curriculumId}/experience/{experienceId}","method":"DELETE","description":"Delete the experience of the given curriculum Id.","version":"1","role":"ROLE_CANDIDATE","scope":"CANDIDATE_DELETE_CURRICULUM_EXPERIENCE","visible":true,"active":true,"isOpList":false,"documentationUrl":"/documentation/operation/curriculum-experience-delete-1.xhtml","entityId":9735,"name":"/curriculum/{curriculumId}/experience/{experienceId}","hiddenMethod":"DELETE"}}},"GET":{"defaultVersion":1,"operations":{"1":{"id":17578,"url":"/api/1/curriculum/{curriculumId}/experience/{experienceId}","method":"GET","description":"Retrieves the experience requested.","version":"1","role":"ROLE_CANDIDATE","scope":"CANDIDATE_READ_CURRICULUM_EXPERIENCE","visible":true,"active":true,"isOpList":false,"documentationUrl":"/documentation/operation/curriculum-experience-get-1.xhtml","entityId":9735,"name":"/curriculum/{curriculumId}/experience/{experienceId}","hiddenMethod":"GET"}}},"LIST":{"defaultVersion":2,"operations":{"2":{"id":10044,"url":"/api/2/curriculum/{curriculumId}/experience","method":"GET","description":"Retrieve the experiences from the given curriculum Id.","version":"2","role":"ROLE_CANDIDATE","scope":"CANDIDATE_READ_CURRICULUM_EXPERIENCE","visible":true,"active":true,"isOpList":false,"documentationUrl":"/documentation/operation/curriculum-experience-list-2.xhtml","entityId":9735,"name":"/curriculum/{curriculumId}/experience","hiddenMethod":"LIST"}}},"PUT":{"defaultVersion":4,"operations":{"4":{"id":17577,"url":"/api/4/curriculum/{curriculumId}/experience","method":"PUT","description":"Create/Edit the experience of the given curriculum Id.","version":"4","role":"ROLE_CANDIDATE","scope":"CANDIDATE_EDIT_CURRICULUM_EXPERIENCE","visible":true,"active":true,"isOpList":false,"documentationUrl":"/documentation/operation/curriculum-experience-put-4.xhtml","entityId":9735,"name":"/curriculum/{curriculumId}/experience","hiddenMethod":"PUT"}}}},"-offer-question":{"LIST":{"defaultVersion":1,"operations":{"1":{"id":586,"url":"/api/1/offer/{offerId}/question","method":"GET","description":"Returns the Killer and Open Questions of an offer.","version":"1","role":"PUBLIC","scope":"NONE","visible":true,"active":true,"isOpList":false,"documentationUrl":"/documentation/operation/offer-question-list-1.xhtml","entityId":585,"name":"/offer/{offerId}/question","hiddenMethod":"LIST"}}}},"-offer-openquestion":{"LIST":{"defaultVersion":1,"operations":{"1":{"id":584,"url":"/api/1/offer/{offerId}/openquestion","method":"GET","description":"Returns the Open Questions of an offer.","version":"1","role":"PUBLIC","scope":"NONE","visible":true,"active":true,"isOpList":false,"documentationUrl":"/documentation/operation/offer-openquestion-list-1.xhtml","entityId":583,"name":"/offer/{offerId}/openquestion","hiddenMethod":"LIST"}}}},"-offer":{"GET":{"defaultVersion":7,"operations":{"7":{"id":47108,"url":"/api/7/offer/{offerId}","method":"GET","description":"Returns the detail of the offer with the given id.","version":"7","role":"PUBLIC","scope":"NONE","visible":true,"active":true,"isOpList":false,"documentationUrl":"/documentation/operation/offer-get-7.xhtml","entityId":469,"name":"/offer/{offerId}","hiddenMethod":"GET"}}},"LIST":{"defaultVersion":7,"operations":{"7":{"id":47107,"url":"/api/7/offer","method":"GET","description":"Returns a list of Job Offers that comply with the search criteria.","version":"7","role":"PUBLIC","scope":"NONE","visible":true,"active":true,"isOpList":false,"documentationUrl":"/documentation/operation/offer-list-7.xhtml","entityId":469,"name":"/offer","hiddenMethod":"LIST"}}}},"-curriculum-personaldata":{"GET":{"defaultVersion":2,"operations":{"2":{"id":10147,"url":"/api/2/curriculum/{curriculumId}/personaldata","method":"GET","description":"Gets the personal data of the curriculum's owner","version":"2","role":"ROLE_CANDIDATE","scope":"CANDIDATE_READ_CURRICULUM_PERSONAL_DATA","visible":true,"active":true,"isOpList":false,"documentationUrl":"/documentation/operation/curriculum-personaldata-get-2.xhtml","entityId":9741,"name":"/curriculum/{curriculumId}/personaldata","hiddenMethod":"GET"}}},"PUT":{"defaultVersion":3,"operations":{"3":{"id":21147,"url":"/api/3/curriculum/{curriculumId}/personaldata","method":"PUT","description":"Edit curriculum personal data","version":"3","role":"ROLE_CANDIDATE","scope":"CANDIDATE_EDIT_CURRICULUM_PERSONAL_DATA","visible":true,"active":true,"isOpList":false,"documentationUrl":"/documentation/operation/curriculum-personaldata-put-3.xhtml","entityId":9741,"name":"/curriculum/{curriculumId}/personaldata","hiddenMethod":"PUT"}}}},"-dictionary":{"GET":{"defaultVersion":1,"operations":{"1":{"id":9627,"url":"/api/1/dictionary/{dictionaryId}","method":"GET","description":"Returns all valid elements of the specified dictionary list.","version":"1","role":"PUBLIC","scope":"NONE","visible":true,"active":true,"isOpList":false,"documentationUrl":"/documentation/operation/dictionary-get-1.xhtml","entityId":9626,"name":"/dictionary/{dictionaryId}","hiddenMethod":"GET"}}}},"-offer-application":{"POST":{"defaultVersion":4,"operations":{"4":{"id":17742,"url":"/api/4/offer/{offerId}/application","method":"POST","description":"Create a job application to the indicated offer for the authenticated user.","version":"4","role":"ROLE_CANDIDATE","scope":"MY_APPLICATIONS","visible":true,"active":true,"isOpList":false,"documentationUrl":"/documentation/operation/offer-application-post-4.xhtml","entityId":578,"name":"/offer/{offerId}/application","hiddenMethod":"POST"}}}},"-application":{"GET":{"defaultVersion":1,"operations":{"1":{"id":564,"url":"/api/1/application/{applicationId}","method":"GET","description":"Returns details of the given job application for the authenticated user.","version":"1","role":"ROLE_CANDIDATE","scope":"MY_APPLICATIONS","visible":true,"active":true,"isOpList":false,"documentationUrl":"/documentation/operation/application-get-1.xhtml","entityId":466,"name":"/application/{applicationId}","hiddenMethod":"GET"}}},"LIST":{"defaultVersion":5,"operations":{"5":{"id":21687,"url":"/api/5/application","method":"GET","description":"Returns the list of job applications for the authenticated user.","version":"5","role":"ROLE_CANDIDATE","scope":"MY_APPLICATIONS","visible":true,"active":true,"isOpList":false,"documentationUrl":"/documentation/operation/application-list-5.xhtml","entityId":466,"name":"/application","hiddenMethod":"LIST"}}},"PUT":{"defaultVersion":1,"operations":{"1":{"id":9824,"url":"/api/1/application/{applicationId}","method":"PUT","description":"Update the given job application for the authenticated user.","version":"1","role":"ROLE_CANDIDATE","scope":"MY_APPLICATIONS","visible":true,"active":true,"isOpList":false,"documentationUrl":"/documentation/operation/application-put-1.xhtml","entityId":466,"name":"/application/{applicationId}","hiddenMethod":"PUT"}}}},"-offer-killerquestion":{"LIST":{"defaultVersion":1,"operations":{"1":{"id":582,"url":"/api/1/offer/{offerId}/killerquestion","method":"GET","description":"Returns the Killer Questions of an offer.","version":"1","role":"PUBLIC","scope":"NONE","visible":true,"active":true,"isOpList":false,"documentationUrl":"/documentation/operation/offer-killerquestion-list-1.xhtml","entityId":581,"name":"/offer/{offerId}/killerquestion","hiddenMethod":"LIST"}}}}};
+
+            // Initialize operation UI
+            initializeOperationUI();
+
+            //Simulate operation selection from server data
+
+
+            //Set version
+
+
+            //Set operation URI
+
+
+            // Initialize advanced options
+            initializeOptions();
+
+            // Setup advanced options visibility
+            // Advanced option main block visibility
+
+            // Attachment
+
+            // Parameters
+
+
+            // Headers
+
+
+            // Body
+
+
+
+
+            //Initialize multiple scope test link
+
+
+            displayAuthenticationFormIfRequired();
+
+            });
+  </script>
+ </head>
+ <body class="es">
+  <input id="delCookieId" onchange="document.cookie='JSESSIONID=; expires=Thu, 01-Jan-70 00:00:01 GMT;';" type="hidden" value="Delete JSESSIONID">
+   <div id="backdrop">
+    <div id="cleaner">
+     <div id="wrapper">
+      <div class="Principal2">
+       <!-- header -->
+       <div id="header">
+        <div class="top clearfix">
+         <div class="logo">
+          <div>
+           <img alt="InfoJobs" src="//media.infojobs.net/portales/ij/app/backgrounds/bg-logo-developers-2013.png"/>
+          </div>
+          <h1>
+           <a href="/">
+            InfoJobs
+           </a>
+          </h1>
+         </div>
+        </div>
+        <div class="bar">
+         <!-- main-navigation-->
+         <div class="clearfix" id="main-navigation">
+          <ul class="level1">
+           <!-- if user authenticated and not at home -->
+           <li class="home-ca">
+            <a href="/">
+             <span>
+              Home
+             </span>
+            </a>
+           </li>
+           <!-- if user authenticated and not at home -->
+           <li class="last">
+            <a href="/documentation/operation-list/index.xhtml" id="documentation-operation-list">
+             <span>
+              Documentation
+             </span>
+            </a>
+           </li>
+          </ul>
+          <!-- if user not authenticated -->
+          <ul class="level3">
+           <li class="login">
+            <a href="/user/login/index" id="login-index">
+             <span>
+              Login
+             </span>
+            </a>
+           </li>
+          </ul>
+         </div>
+         <!-- /main-navigation-->
+        </div>
+       </div>
+       <!-- /header -->
+       <div class="clearfix" id="template1">
+        <h1>
+         Test Console
+        </h1>
+        <form action="/test-console/execute.xhtml" id="apiexecutionform" method="post">
+         <a name="panel">
+         </a>
+         <div class="clearfix" id="panel">
+          <div id="portal">
+           <h2>
+            Application
+           </h2>
+           <img alt="InfoJobs Empleo" src="//media.infojobs.net/portales/ij/app/pictures/pic-logo-empleo-print-2013.png"/>
+          </div>
+          <div id="control">
+           <div id="bar">
+            <h2>
+             Operation
+            </h2>
+            <span class="method" id="execmethod">
+             GET
+            </span>
+            <input id="apiuri" name="urifield" type="text" value=""/>
+            <select id="apiversion" name="versionfield" style="display:none;" title="Operation version">
+            </select>
+            <a class="action-m" href="#" id="send-button" onclick="return execute();">
+             <span>
+              <span>
+               SEND »
+              </span>
+             </span>
+            </a>
+           </div>
+           <div id="info-spec">
+            <ul id="operationInfo">
+             <li>
+              <strong>
+               Description:
+              </strong>
+              <span id="operationDescription">
+               -
+              </span>
+              <a href="#" id="operationDocumentation" onclick="NuevaVentana=openWindowLink(this); return false;" style="display:none;">
+               Documentation
+              </a>
+             </li>
+             <li>
+              <strong>
+               Security:
+              </strong>
+              <span id="operationSecurityInfo">
+               -
+              </span>
+             </li>
+            </ul>
+           </div>
+          </div>
+          <a href="#" id="advanced-options">
+           <img alt="Advanced panel" src="/img/gear_icon.png" title="Advanced panel"/>
+          </a>
+          <input id="apimethod" name="methodfield" type="hidden" value="GET"/>
+          <input id="apihmethod" name="hmethodfield" type="hidden" value=""/>
+          <input id="operationEntity" name="operationEntityField" type="hidden"/>
+         </div>
+         <!-- /#panel -->
+         <div id="options" style="display:none">
+          <h2>
+           Advanced options
+          </h2>
+          <fieldset id="fieldset-attach">
+           <input id="attachmentRequired" name="attachmentRequired" type="checkbox" value="yes"/>
+           <label for="attachmentRequired">
+            Attachment
+           </label>
+           <div id="attachmentContainer" style="display:none">
+            <label>
+             Type:
+            </label>
+            <select id="attachmentType" name="attachment_type">
+             <option value="Local">
+              Local File
+             </option>
+             <option value="Remote">
+              URL
+             </option>
+            </select>
+            <br/>
+            <label for="attachmentFileName">
+             Give name...
+            </label>
+            <input id="attachmentFileName" name="attachmentFileName" type="text"/>
+            <span>
+             to file...
+            </span>
+            <span id="attachmentFile">
+             <input id="attachmentFileLocal" name="attachment_file_local" type="file"/>
+             <input id="attachmentFileRemote" name="attachment_file_remote" type="text"/>
+            </span>
+           </div>
+          </fieldset>
+          <fieldset>
+           <input id="parametersRequired" name="paramsRequired" type="checkbox" value="yes"/>
+           <label for="parametersRequired">
+            Parameters
+           </label>
+           <div id="parametersContainer" style="display:none">
+            <div class="advancedOptionsRow" id="parametersRow_0">
+             <input id="parameters_name_0" name="parameters_name_0" type="text" value="Name"/>
+             <input id="parameters_value_0" name="parameters_value_0" type="text" value="Value"/>
+             <div class="advancedOptionsControl" id="parametersControls_0">
+              <input id="parametersAddRow_0" title="add element" type="button" value="+"/>
+              <input id="parametersRemoveRow_0" title="remove element" type="button" value=" - "/>
+             </div>
+            </div>
+           </div>
+           <input id="parametersAtt" name="paramsAttached" type="hidden" value="1"/>
+          </fieldset>
+          <fieldset>
+           <input id="headersRequired" name="headersRequired" type="checkbox" value="yes"/>
+           <label for="headersRequired">
+            Headers
+           </label>
+           <div id="headersContainer" style="display:none">
+            <div class="advancedOptionsRow" id="headersRow_0">
+             <input id="headers_name_0" name="headers_name_0" type="text" value="Name"/>
+             <input id="headers_value_0" name="headers_value_0" type="text" value="Value"/>
+             <div class="advancedOptionsControl" id="headersControls_0">
+              <input id="headersAddRow_0" title="Add element" type="button" value="+"/>
+              <input id="headersRemoveRow_0" title="Remove element" type="button" value=" - "/>
+             </div>
+            </div>
+           </div>
+           <input id="headersAtt" name="headersAttached" type="hidden" value="1"/>
+          </fieldset>
+          <fieldset>
+           <input id="bodyRequired" name="textRequired" type="checkbox" value="yes"/>
+           <label for="bodyRequired">
+            Body request
+           </label>
+           <div id="bodyContainer" style="display:none">
+            <div>
+             <input checked="checked" id="bodyContentTypeJson" name="bodyContentType" type="radio" value="json"/>
+             <label for="bodyContentTypeJson">
+              JSON
+             </label>
+             <input id="bodyContentTypeXml" name="bodyContentType" type="radio" value="xml"/>
+             <label for="bodyContentTypeXml">
+              XML
+             </label>
+            </div>
+            <textarea class="bodyRequest" id="body_request" name="body_request">
+            </textarea>
+           </div>
+          </fieldset>
+         </div>
+         <!-- /#options -->
+        </form>
+        <div class="clearfix" id="opsres">
+         <!-- Operation list -->
+         <div id="operations">
+          <h2>
+           Operation list
+          </h2>
+          <ul id="test_actions" style="display:none">
+           <li>
+            <span>
+             Test actions
+            </span>
+            <ul>
+             <li>
+              <a href="#" id="test_action_multiple_scopes" title="Make an operation ready to be executed and click this link to send a multiple scopes authorization request.">
+               Multiple scopes for candidate
+              </a>
+             </li>
+            </ul>
+           </li>
+          </ul>
+          <ul>
+           <li class="entity">
+            <h3>
+             Candidate
+            </h3>
+            <ul>
+             <li title="Returns account data of the authenticated user.">
+              <a href="" id="op-candidate-GET" onclick="setOperationList('-candidate', 'GET', 'GET'); return false;">
+               <span class="method">
+                GET
+               </span>
+               /candidate
+              </a>
+             </li>
+             <li title="Returns a list of skilks for a given skill category id">
+              <a href="" id="op-candidate-skill-LIST" onclick="setOperationList('-candidate-skill', 'GET', 'LIST'); return false;">
+               <span class="method">
+                GET
+               </span>
+               /candidate/skill
+              </a>
+             </li>
+             <li title="Returns a tree with all the skill categories available">
+              <a href="" id="op-candidate-skillcategory-LIST" onclick="setOperationList('-candidate-skillcategory', 'GET', 'LIST'); return false;">
+               <span class="method">
+                GET
+               </span>
+               /candidate/skillcategory
+              </a>
+             </li>
+            </ul>
+           </li>
+           <li class="entity">
+            <h3>
+             Dictionary
+            </h3>
+            <ul>
+             <li title="Returns all valid elements of the specified dictionary list.">
+              <a href="" id="op-dictionary-GET" onclick="setOperationList('-dictionary', 'GET', 'GET'); return false;">
+               <span class="method">
+                GET
+               </span>
+               /dictionary/{dictionaryId}
+              </a>
+             </li>
+             <li title="Returns all valid elements of the specified dictionary list.">
+              <a href="" id="op-dictionary-type-GET" onclick="setOperationList('-dictionary-type', 'GET', 'GET'); return false;">
+               <span class="method">
+                GET
+               </span>
+               /dictionary/type/{typeId}
+              </a>
+             </li>
+            </ul>
+           </li>
+           <li class="entity">
+            <h3>
+             CV Visualization and Edition
+            </h3>
+            <ul>
+             <li title="Returns list of CVs of the authenticated user.">
+              <a href="" id="op-curriculum-LIST" onclick="setOperationList('-curriculum', 'GET', 'LIST'); return false;">
+               <span class="method">
+                GET
+               </span>
+               /curriculum
+              </a>
+             </li>
+             <li title="Gets the curriculum in text format">
+              <a href="" id="op-curriculum-cvtext-GET" onclick="setOperationList('-curriculum-cvtext', 'GET', 'GET'); return false;">
+               <span class="method">
+                GET
+               </span>
+               /curriculum/{curriculumId}/cvtext
+              </a>
+             </li>
+             <li title="Updates the curriculum in text format">
+              <a href="" id="op-curriculum-cvtext-PUT" onclick="setOperationList('-curriculum-cvtext', 'PUT', 'PUT'); return false;">
+               <span class="method">
+                PUT
+               </span>
+               /curriculum/{curriculumId}/cvtext
+              </a>
+             </li>
+             <li title="Gets the education details of the curriculum">
+              <a href="" id="op-curriculum-education-LIST" onclick="setOperationList('-curriculum-education', 'GET', 'LIST'); return false;">
+               <span class="method">
+                GET
+               </span>
+               /curriculum/{curriculumId}/education
+              </a>
+             </li>
+             <li title="Retrieves education details for a given CV for the authenticated user.">
+              <a href="" id="op-curriculum-education-GET" onclick="setOperationList('-curriculum-education', 'GET', 'GET'); return false;">
+               <span class="method">
+                GET
+               </span>
+               /curriculum/{curriculumId}/education/{educationId}
+              </a>
+             </li>
+             <li title="Update education details for a given CV for the authenticated user.">
+              <a href="" id="op-curriculum-education-PUT" onclick="setOperationList('-curriculum-education', 'PUT', 'PUT'); return false;">
+               <span class="method">
+                PUT
+               </span>
+               /curriculum/{curriculumId}/education
+              </a>
+             </li>
+             <li title="Retrieves education details for a given CV for the authenticated user.">
+              <a href="" id="op-curriculum-education-DELETE" onclick="setOperationList('-curriculum-education', 'DELETE', 'DELETE'); return false;">
+               <span class="method">
+                DELETE
+               </span>
+               /curriculum/{curriculumId}/education/{educationId}
+              </a>
+             </li>
+             <li title="Retrieves the experience requested.">
+              <a href="" id="op-curriculum-experience-GET" onclick="setOperationList('-curriculum-experience', 'GET', 'GET'); return false;">
+               <span class="method">
+                GET
+               </span>
+               /curriculum/{curriculumId}/experience/{experienceId}
+              </a>
+             </li>
+             <li title="Retrieve the experiences from the given curriculum Id.">
+              <a href="" id="op-curriculum-experience-LIST" onclick="setOperationList('-curriculum-experience', 'GET', 'LIST'); return false;">
+               <span class="method">
+                GET
+               </span>
+               /curriculum/{curriculumId}/experience
+              </a>
+             </li>
+             <li title="Create/Edit the experience of the given curriculum Id.">
+              <a href="" id="op-curriculum-experience-PUT" onclick="setOperationList('-curriculum-experience', 'PUT', 'PUT'); return false;">
+               <span class="method">
+                PUT
+               </span>
+               /curriculum/{curriculumId}/experience
+              </a>
+             </li>
+             <li title="Delete the experience of the given curriculum Id.">
+              <a href="" id="op-curriculum-experience-DELETE" onclick="setOperationList('-curriculum-experience', 'DELETE', 'DELETE'); return false;">
+               <span class="method">
+                DELETE
+               </span>
+               /curriculum/{curriculumId}/experience/{experienceId}
+              </a>
+             </li>
+             <li title="Gets the future job fields of the curriculum">
+              <a href="" id="op-curriculum-futurejob-GET" onclick="setOperationList('-curriculum-futurejob', 'GET', 'GET'); return false;">
+               <span class="method">
+                GET
+               </span>
+               /curriculum/{curriculumId}/futurejob
+              </a>
+             </li>
+             <li title="Updates the future job fields of the curriculum">
+              <a href="" id="op-curriculum-futurejob-PUT" onclick="setOperationList('-curriculum-futurejob', 'PUT', 'PUT'); return false;">
+               <span class="method">
+                PUT
+               </span>
+               /curriculum/{curriculumId}/futurejob
+              </a>
+             </li>
+             <li title="Gets the personal data of the curriculum's owner">
+              <a href="" id="op-curriculum-personaldata-GET" onclick="setOperationList('-curriculum-personaldata', 'GET', 'GET'); return false;">
+               <span class="method">
+                GET
+               </span>
+               /curriculum/{curriculumId}/personaldata
+              </a>
+             </li>
+             <li title="Edit curriculum personal data">
+              <a href="" id="op-curriculum-personaldata-PUT" onclick="setOperationList('-curriculum-personaldata', 'PUT', 'PUT'); return false;">
+               <span class="method">
+                PUT
+               </span>
+               /curriculum/{curriculumId}/personaldata
+              </a>
+             </li>
+             <li title="Gets the curriculum skills">
+              <a href="" id="op-curriculum-skill-LIST" onclick="setOperationList('-curriculum-skill', 'GET', 'LIST'); return false;">
+               <span class="method">
+                GET
+               </span>
+               /curriculum/{curriculumId}/skill
+              </a>
+             </li>
+            </ul>
+           </li>
+           <li class="entity">
+            <h3>
+             Job Search
+            </h3>
+            <ul>
+             <li title="Returns a list of Job Offers that comply with the search criteria.">
+              <a href="" id="op-offer-LIST" onclick="setOperationList('-offer', 'GET', 'LIST'); return false;">
+               <span class="method">
+                GET
+               </span>
+               /offer
+              </a>
+             </li>
+             <li title="Returns the detail of the offer with the given id.">
+              <a href="" id="op-offer-GET" onclick="setOperationList('-offer', 'GET', 'GET'); return false;">
+               <span class="method">
+                GET
+               </span>
+               /offer/{offerId}
+              </a>
+             </li>
+            </ul>
+           </li>
+           <li class="entity">
+            <h3>
+             Job Application and Tracking
+            </h3>
+            <ul>
+             <li title="Returns details of the given job application for the authenticated user.">
+              <a href="" id="op-application-GET" onclick="setOperationList('-application', 'GET', 'GET'); return false;">
+               <span class="method">
+                GET
+               </span>
+               /application/{applicationId}
+              </a>
+             </li>
+             <li title="Returns the list of job applications for the authenticated user.">
+              <a href="" id="op-application-LIST" onclick="setOperationList('-application', 'GET', 'LIST'); return false;">
+               <span class="method">
+                GET
+               </span>
+               /application
+              </a>
+             </li>
+             <li title="Update the given job application for the authenticated user.">
+              <a href="" id="op-application-PUT" onclick="setOperationList('-application', 'PUT', 'PUT'); return false;">
+               <span class="method">
+                PUT
+               </span>
+               /application/{applicationId}
+              </a>
+             </li>
+             <li title="Returns the candidate's application timeline of the given offer.">
+              <a href="" id="op-application-timeline-LIST" onclick="setOperationList('-application-timeline', 'GET', 'LIST'); return false;">
+               <span class="method">
+                GET
+               </span>
+               /application/{applicationId}/timeline
+              </a>
+             </li>
+             <li title="Returns list of cover letters of the authenticated user.">
+              <a href="" id="op-coverletter-LIST" onclick="setOperationList('-coverletter', 'GET', 'LIST'); return false;">
+               <span class="method">
+                GET
+               </span>
+               /coverletter
+              </a>
+             </li>
+             <li title="Returns the candidate's cover letter with the given Id.">
+              <a href="" id="op-coverletter-GET" onclick="setOperationList('-coverletter', 'GET', 'GET'); return false;">
+               <span class="method">
+                GET
+               </span>
+               /coverletter/{coverletterId}
+              </a>
+             </li>
+             <li title="Creates a new Cover Letter">
+              <a href="" id="op-coverletter-PUT" onclick="setOperationList('-coverletter', 'PUT', 'PUT'); return false;">
+               <span class="method">
+                PUT
+               </span>
+               /coverletter
+              </a>
+             </li>
+             <li title="Removes a coverletter.">
+              <a href="" id="op-coverletter-DELETE" onclick="setOperationList('-coverletter', 'DELETE', 'DELETE'); return false;">
+               <span class="method">
+                DELETE
+               </span>
+               /coverletter/{coverletterId}
+              </a>
+             </li>
+             <li title="Create a job application to the indicated offer for the authenticated user.">
+              <a href="" id="op-offer-application-POST" onclick="setOperationList('-offer-application', 'POST', 'POST'); return false;">
+               <span class="method">
+                POST
+               </span>
+               /offer/{offerId}/application
+              </a>
+             </li>
+             <li title="Returns the Killer Questions of an offer.">
+              <a href="" id="op-offer-killerquestion-LIST" onclick="setOperationList('-offer-killerquestion', 'GET', 'LIST'); return false;">
+               <span class="method">
+                GET
+               </span>
+               /offer/{offerId}/killerquestion
+              </a>
+             </li>
+             <li title="Returns the Open Questions of an offer.">
+              <a href="" id="op-offer-openquestion-LIST" onclick="setOperationList('-offer-openquestion', 'GET', 'LIST'); return false;">
+               <span class="method">
+                GET
+               </span>
+               /offer/{offerId}/openquestion
+              </a>
+             </li>
+             <li title="Returns the Killer and Open Questions of an offer.">
+              <a href="" id="op-offer-question-LIST" onclick="setOperationList('-offer-question', 'GET', 'LIST'); return false;">
+               <span class="method">
+                GET
+               </span>
+               /offer/{offerId}/question
+              </a>
+             </li>
+            </ul>
+           </li>
+          </ul>
+         </div>
+         <!-- Result field -->
+         <div id="result">
+          <h2>
+           Execution result
+          </h2>
+          <div id="description">
+           <div id="welcomeDescription">
+            Welcome to InfoJobs API,
+            <br/>
+            Your response result will be displayed here after execution. Choose an operation and send the request!
+           </div>
+           <p class="" id="responseTitle">
+           </p>
+           <div id="responseBody" style="display:none">
+           </div>
+           <pre id="formattedBody"></pre>
+          </div>
+         </div>
+         <!-- /#description -->
+        </div>
+        <!-- /#result -->
+       </div>
+      </div>
+      <script type="text/javascript">
+       //<![CDATA[
+if (typeof objThicboxIncludedXXYZ == "undefined") {
+  var objThicboxIncludedXXYZ = new String();
+  var srcJQuery = "//developer.infojobs.net/jquery.js";
+  var srcCssThickbox = "//developer.infojobs.net/thickbox.css";
+  document.write("<link rel='stylesheet' type='text/css' href='" + srcCssThickbox + "'/>");
+  document.write("<script type='text/javascript' src='"+srcJQuery+"'><\/script>");
+  function entrarThickBox(caption,url,ancho,alto,options) {
+ if(!url.indexOf("http")==0){  url = '//' + document.domain + '/' + url; }
+    if (jQuery('#overlay').length != 0) { jQuery('#overlay').empty().remove(); }
+    alto = alto*1 + 42;
+    ancho = ancho*1 + 29;
+    var iFrameParams = 'id="TB_iframeContent" name="TB_iframeContent" style="width:'+ ancho +'px;height:'+ alto +'px;" src="'+url+'" frameborder="0" hspace="0"';
+    if (!!options && !!options.disableScrolling) { iFrameParams += " scrolling='no' ";}
+    var overlayParams = { load: true, fixed: false, mask: { color:'#000000',loadSpeed: 200,opacity: 0.6}, closeOnClick: false };
+    if (!!options) { jQuery.extend(overlayParams, options); }
+    jQuery('body').append('<div id="overlay"><iframe ' + iFrameParams + '></iframe></div>');
+    jQuery('#overlay').overlay(overlayParams);
+  }
+}
+function tb_remove() { jQuery('#overlay').overlay().close(); }
+function tb_updatePosition(width, height) {
+var cssSize = {};
+if (width > 0) { cssSize.width = width + 'px';}
+if (height > 0) {cssSize.height= height + 'px';}
+jQuery('#TB_iframeContent').css(cssSize);
+}
+function addOnCloseThickBoxEvent(eventFunction) { jQuery('#overlay').bind('onClose',eventFunction); }
+function setExclusiveOnCloseThickBoxEvent(event) { jQuery('#overlay').unbind('onClose'); jQuery('#overlay').bind('onClose',event); }
+function addOnBeforeCloseThickBoxEvent(eventFunction) { jQuery('#overlay').bind('onBeforeClose',eventFunction); }
+function setExclusiveOnBeforeCloseThickBoxEvent(eventFunction) { jQuery('#overlay').unbind('onBeforeClose'); jQuery('#overlay').bind('onBeforeClose',eventFunction); }
+function setCloseEvent(event) { jQuery('#overlay').bind('onClose',event); }
+function setNewEvent(event) { jQuery('#overlay').unbind('onClose'); jQuery('#overlay').bind('onClose',event); }
+// ]]>
+      </script>
+      <div id="footer">
+       <div class="nav">
+        <dl>
+         <dt>
+          InfoJobs
+         </dt>
+         <dd>
+          <ul>
+           <li>
+            <a href="#" id="link_privacidad">
+             Política de privacidad
+            </a>
+           </li>
+           <li>
+            <a href="#" id="link_condiciones">
+             Condiciones de uso
+            </a>
+           </li>
+           <li>
+            <a href="https://nosotros.infojobs.net/sobre-tus-datos/infojobs-transparente-contigo" id="link_tus_datos">
+             Sobre tus datos
+            </a>
+           </li>
+          </ul>
+         </dd>
+        </dl>
+        <p>
+         © 2012
+        </p>
+       </div>
+       <a class="hide" href="http://www.infojobs.net/blank.xhtml" id="footBlank">
+        <img alt="" height="1" src="//media.infojobs.net/portales/ij//ico-vacio-1x1.gif" width="1"/>
+       </a>
+      </div>
+      <script>
+       $('#link_privacidad').click(function () {
+    var action = "/legal/legal/privacy.xhtml";
+    entrarThickBox("Privacy policy", action, 800, 460);
+    return false;
+});
+$('#link_condiciones').click(function () {
+    var action = "/legal/legal/terms-of-use.xhtml";
+    entrarThickBox("Terms of Use", action, 800, 460);
+    return false;
+});
+      </script>
+     </div>
+    </div>
+   </div>
+  </input>
+ </body>
+</html>
+<script type="text/javascript">
+ // <![CDATA[
+
+    jQuery(document).ready(function() {
+        prepareXiti();
+    });
+
+    // ]]>
+</script>
+<script>
+ var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "13013988" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+ <img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=13013988&amp;cv=2.0&amp;cj=1"/>
+</noscript>
+<script type="text/javascript">
+ // <![CDATA[
+    xitiCookieDomain = 'developer.infojobs.net';
+    xtnv = document;                            //parent.document or top.document or document
+    xtsd = "https://logs11";
+    xtsite = "500892";                  //site number
+    xtn2 = "";                      //level 2 site
+    xtpage = "devsite::unclassified::test-console::console.xhtml";      //page name (with the use of :: to create chapters)
+    xtdi = "";                                  //implication degree
+    xt_multc = "";                              // Personalized indicators
+
+    xt_ac = "";                             //category
+    xt_at = "";                             //numeric identifier of the visitor
+
+
+    xt_gi = "";                             // Global indicators
+    //xt_pi = "";                               // Personalized indicators
+    //do not modify below
+
+    if (window.xtparam!=null) {
+        window.xtparam+="&ac="+xt_ac+xt_multc + xt_gi;
+    } else {
+        window.xtparam = "&ac="+xt_ac+xt_multc + xt_gi;
+    }
+
+    function prepareXiti() {
+        jQuery.getScript("/js/xtcore.js");
+    }
+
+    // ]]>
+</script>
+<noscript>
+ <p>
+  <img alt="" height="1" src="https://logs11.xiti.com/hit.xiti?s=500892&amp;s2=&amp;p=devsite::unclassified::test-console::console.xhtml&amp;di=&amp;an=&amp;ac=&amp;" width="1"/>
+ </p>
+</noscript>

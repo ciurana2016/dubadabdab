@@ -7,6 +7,8 @@ test_url = 'https://developer.infojobs.net/test-console/execute.xhtml'
 r = requests.get(test_url)
 
 soup = BeautifulSoup(r.text, 'html.parser')
-print(soup.prettify())
+# print(soup.prettify())
+
+print(r.cookies)
 
 print('EOF')
