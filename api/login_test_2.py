@@ -31,7 +31,7 @@ PRE_HEADERS = {
     'Upgrade-Insecure-Requests': '1',
     'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36'
 }
-r = s.get(PRE_URL, headers=PRE_HEADERS)
+r = s.get(PRE_URL, headers=PRE_HEADERS, verify=False)
 
 # Tengo sesion en cookies y la peticion fue desde "chrome" !!!
 # pprint(r.request.headers)
@@ -72,7 +72,7 @@ LOGIN_FORM_DATA = {
     'password': password,
     'submit': 'Log In',
 }
-r = s.post(LOGIN_URL, headers=LOGIN_HEADERS, data=LOGIN_FORM_DATA, cookies=s.cookies)
+r = s.post(LOGIN_URL, headers=LOGIN_HEADERS, data=LOGIN_FORM_DATA, cookies=s.cookies, verify=False)
 # Su puta madre funciona LOL !!! 
 # print(r.status_code)
 # pprint(r.request.headers)
@@ -112,7 +112,7 @@ FAIL_FORM_DATA = {
     'headersAttached': '1',
     'bodyContentType': 'json',
 }
-r = s.post(FAIL_URL, headers=FAIL_HEADERS, data=FAIL_FORM_DATA, cookies=s.cookies)
+r = s.post(FAIL_URL, headers=FAIL_HEADERS, data=FAIL_FORM_DATA, cookies=s.cookies, verify=False)
 # print(r.status_code)
 # pprint(r.request.headers)
 # pprint(s.cookies)
@@ -121,7 +121,6 @@ r = s.post(FAIL_URL, headers=FAIL_HEADERS, data=FAIL_FORM_DATA, cookies=s.cookie
 print('[*] Primera peticion a la API fallada con exito')
 time.sleep(2)
 
-# Aqui destil nos pilla, pero porque? es el mismo login que antes practicamente .
 
 
 

@@ -8,14 +8,6 @@ resultados REALES, y esta web no tiene proteccion anti robots,
 por lo tanto podemos crear un robot que haga peticiones de test a su API
 a traves de esta web y recoja los resultados.
 
-Aparte, se ve que hay apartados que requieren autorizacion por parte
-del usuario, salta un iframe para aceptar, pero el navegador no lo carga,
-PERO, si abrimos el contenido del iframe en otra pantlala y aceptamos,
-hacemos la peticion de nuevo y funciona lol.
-
-EJEMPLO
-///
-https://www.infojobs.net/api/oauth/user-authorize/index.xhtml?scope=COVER_LETTER_WRITE&client_id=devsite-test-console-net&redirect_uri=https://developer.infojobs.net/test-console/continue-request.xhtml&response_type=code&state=COVER_LETTER_WRITE
-///
-
-LOL FUNCIONA HHAHAH
+El problema es que para validar acciones de tu cuenta a la API, si que pasa
+por un subdominio protegido, __www.infojobs.net__, hay que testear a ver que pasa
+si nos saltamos esa redireccion y la cambiamos con burp.
