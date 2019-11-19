@@ -15,6 +15,10 @@ password = input('Password:')
 
 s = requests.Session()
 
+# Burp
+proxies = {"http": "http://127.0.0.1:8080", "https": "http://127.0.0.1:8080"}
+s.proxies.update(proxies)
+
 PRE_URL = 'https://developer.infojobs.net/user/login/index.xhtml'
 PRE_HEADERS = {
     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
