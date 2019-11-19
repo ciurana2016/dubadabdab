@@ -1,6 +1,9 @@
+## Antes de nada lista de cookies y funcionalidad
+https://www.infojobs.net/cookies-policy-i.xhtml 
+
 Enlace del Iframe:
 ### https://www.infojobs.net/api/api-login/api-login.xhtml?client_id=devsite-test-console-net&redirect_uri=https://developer.infojobs.net/test-console/continue-request.xhtml&scope=CANDIDATE_PROFILE_WITH_EMAIL
-
+    
 El formulario en el enlace anterior ataca a (con user y pass):
 ### https://accounts.infojobs.net/security/accounts/login/run
 __General__
@@ -8,13 +11,12 @@ __General__
     Referrer Policy: no-referrer-when-downgrade
 
 __Request headers__
-    Provisional headers are shown
-    Content-Type: application/x-www-form-urlencoded
-    Origin: https://www.infojobs.net
-    Referer: https://www.infojobs.net/api/api-login/api-login.xhtml?client_id=devsite-test-console-net&redirect_uri=https://developer.infojobs.net/test-console/continue-request.xhtml&scope=CANDIDATE_PROFILE_WITH_EMAIL
-    Sec-Fetch-User: ?1
-    Upgrade-Insecure-Requests: 1
-    User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36
+    'Content-Type' : 'application/x-www-form-urlencoded',
+    'Origin' : 'https://www.infojobs.net',
+    'Referer' : 'https://www.infojobs.net/api/api-login/api-login.xhtml?client_id=devsite-test-console-net&redirect_uri=https://developer.infojobs.net/test-console/continue-request.xhtml&scope=CANDIDATE_PROFILE_WITH_EMAIL',
+    'Sec-Fetch-User' : '?1',
+    'Upgrade-Insecure-Requests' : '1',
+    'User-Agent' : 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
 
 __Form data__
     client_id: empleo_ij
@@ -363,7 +365,25 @@ __Request headers__
     Connection: keep-alive
     Content-Length: 219
     Content-Type: application/x-www-form-urlencoded
-    Cookie: JSESSIONID=SjpkCbjO1JfP0J+ao+5RYNqg; AWSELB=6F772D7F025CE724146F13F5B98B9A20F07F7A8E0C9D7256D1219719E9B539A617EA68DBED01CE8948C896AF7D4494949DBAB3487512C772A0F98AC9834E315B69561AC2CD; xtvrn=$500892$; JSESSIONID=cPvCnJilSWiVCyckyLHWPvRh; IJTESTUID=64331fa7-d2da-44c0-963e-824690f88518; IJUSERUID=05708230-19af-4e2d-bd06-072eb2a26dbd; ajs_anonymous_id=4ad93af4-385f-46cf-8888-813a5fe5239c; ajs_group_id=null; utag_main=v_id:016e800960f6001b4dc828cb4e5d0307800cc07000bd0$_sn:1$_ss:1$_pn:1%3Bexp-session$_st:1574107928630$ses_id:1574106128630%3Bexp-session$vapi_domain:infojobs.net; AMCVS_05FF6243578784B37F000101%40AdobeOrg=1; s_cc=true; _pulse2data=211a477e-747c-4e1a-a601-04397280acf3%2Cv%2C%2C1574107029556%2CeyJpc3N1ZWRBdCI6IjIwMTktMTEtMThUMTk6NDI6MDlaIiwiZW5jIjoiQTEyOENCQy1IUzI1NiIsImFsZyI6ImRpciIsImtpZCI6IjIifQ..7tQ_Nncoxx5_qewI5KH73g.oB5v4-XdTeuIv4vtr60ps5Sp2qj83jEMsZR8kAsORn5uV_pwkfZsMO-RP9O7B2qrdFzY2KX_6iFJGbHirAMwWCBsq5AwSYUJ0gWS762FEiGMGDh1AuHVJLmjCiIPhHYBLf9xtNIswYH7clyaUJ0KAyPdt4HSygqjjWpKVN8LuFaM-2kqkaH9uFVcvTmODw7XdxAvyZuUdDdpS-JtJfMJig.-cNiBQXIva_E7XVxILv9jw%2C%2C0%2Ctrue%2C%2CeyJraWQiOiIyIiwiYWxnIjoiSFMyNTYifQ..xSr_EzSygIhSK0DGpwv5V35MMc25W8p-IHLf-opY1B4; AMCV_05FF6243578784B37F000101%40AdobeOrg=-1712354808%7CMCIDTS%7C18219%7CMCMID%7C32684227982076427600498174367758074122%7CMCAAMLH-1574710928%7C6%7CMCAAMB-1574710928%7C6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y%7CMCOPTOUT-1574113329s%7CNONE%7CMCAID%7CNONE%7CMCSYNCSOP%7C411-18226%7CvVersion%7C4.3.0; s_sq=schibstedspainjobsinfojobsprod%3D%2526c.%2526a.%2526activitymap.%2526page%253Dother%2526link%253DIniciar%252520sesi%2525C3%2525B3n%2526region%253Dapi-login-form%2526pageIDType%253D1%2526.activitymap%2526.a%2526.c%2526pid%253Dother%2526pidt%253D1%2526oid%253DIniciar%252520sesi%2525C3%2525B3n%2526oidt%253D3%2526ot%253DSUBMIT; IJCUG=DIfK%252FqxW0VWdb3uNG73EBL6h1b6mdq51UDuSTP33nkfUfy%252Fnda0Z0XssGGNC6cNRYDot6Lm84nHK%250ADnrb5aKIxMFJnYEGCc1%252F3J0%253D; IJH=DH%2BrWyywNMWqN63qGyJw0%2BNyoE%2FTydy24zSSklYzbNOhbVRJ1%2BuUA0zQ3A1CScSBX2bt17lvHWFsIbS%2FxMx6kA%3D%3D; IJUSERNL=Victor%C2%ACCA%C2%AC38908077-2d61-4fa8-88fb-2409cc4da3ce%C2%ACseg%3D23%C2%ACprv%3D26; nfsld9d6558b2036b0758d9bfefe08f0c45d=1; ajs_user_id=%22sdrn%3Ainfojobs.net%3Auser%3A32128330420%22; IJE=DEf%2BsqOP62B4YbZoxeJW1ejcYMBdn3v%2B%2FsQR1kSH3hl5Bf4hc2jp5yKJt4cocXbMkopWq68gFp0tHE6Z
+    Cookie:
+        JSESSIONID=SjpkCbjO1JfP0J+ao+5RYNqg;
+        AWSELB=6F772D7F025CE724146F13F5B98B9A20F07F7A8E0C9D7256D1219719E9B539A617EA68DBED01CE8948C896AF7D4494949DBAB3487512C772A0F98AC9834E315B69561AC2CD;
+        xtvrn=$500892$;
+        JSESSIONID=cPvCnJilSWiVCyckyLHWPvRh;
+        IJTESTUID=64331fa7-d2da-44c0-963e-824690f88518;
+        IJUSERUID=05708230-19af-4e2d-bd06-072eb2a26dbd;
+        ajs_anonymous_id=4ad93af4-385f-46cf-8888-813a5fe5239c;
+        ajs_group_id=null;
+        utag_main=v_id:016e800960f6001b4dc828cb4e5d0307800cc07000bd0$_sn:1$_ss:1$_pn:1%3Bexp-session$_st:1574107928630$ses_id:1574106128630%3Bexp-session$vapi_domain:infojobs.net;
+        AMCVS_05FF6243578784B37F000101%40AdobeOrg=1;
+        s_cc=true;
+        _pulse2data=211a477e-747c-4e1a-a601-04397280acf3%2Cv%2C%2C1574107029556%2CeyJpc3N1ZWRBdCI6IjIwMTktMTEtMThUMTk6NDI6MDlaIiwiZW5jIjoiQTEyOENCQy1IUzI1NiIsImFsZyI6ImRpciIsImtpZCI6IjIifQ..7tQ_Nncoxx5_qewI5KH73g.oB5v4-XdTeuIv4vtr60ps5Sp2qj83jEMsZR8kAsORn5uV_pwkfZsMO-RP9O7B2qrdFzY2KX_6iFJGbHirAMwWCBsq5AwSYUJ0gWS762FEiGMGDh1AuHVJLmjCiIPhHYBLf9xtNIswYH7clyaUJ0KAyPdt4HSygqjjWpKVN8LuFaM-2kqkaH9uFVcvTmODw7XdxAvyZuUdDdpS-JtJfMJig.-cNiBQXIva_E7XVxILv9jw%2C%2C0%2Ctrue%2C%2CeyJraWQiOiIyIiwiYWxnIjoiSFMyNTYifQ..xSr_EzSygIhSK0DGpwv5V35MMc25W8p-IHLf-opY1B4;
+        AMCV_05FF6243578784B37F000101%40AdobeOrg=-1712354808%7CMCIDTS%7C18219%7CMCMID%7C32684227982076427600498174367758074122%7CMCAAMLH-1574710928%7C6%7CMCAAMB-1574710928%7C6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y%7CMCOPTOUT-1574113329s%7CNONE%7CMCAID%7CNONE%7CMCSYNCSOP%7C411-18226%7CvVersion%7C4.3.0;
+        s_sq=schibstedspainjobsinfojobsprod%3D%2526c.%2526a.%2526activitymap.%2526page%253Dother%2526link%253DIniciar%252520sesi%2525C3%2525B3n%2526region%253Dapi-login-form%2526pageIDType%253D1%2526.activitymap%2526.a%2526.c%2526pid%253Dother%2526pidt%253D1%2526oid%253DIniciar%252520sesi%2525C3%2525B3n%2526oidt%253D3%2526ot%253DSUBMIT;
+        IJCUG=DIfK%252FqxW0VWdb3uNG73EBL6h1b6mdq51UDuSTP33nkfUfy%252Fnda0Z0XssGGNC6cNRYDot6Lm84nHK%250ADnrb5aKIxMFJnYEGCc1%252F3J0%253D; IJH=DH%2BrWyywNMWqN63qGyJw0%2BNyoE%2FTydy24zSSklYzbNOhbVRJ1%2BuUA0zQ3A1CScSBX2bt17lvHWFsIbS%2FxMx6kA%3D%3D; IJUSERNL=Victor%C2%ACCA%C2%AC38908077-2d61-4fa8-88fb-2409cc4da3ce%C2%ACseg%3D23%C2%ACprv%3D26;
+        nfsld9d6558b2036b0758d9bfefe08f0c45d=1;
+        ajs_user_id=%22sdrn%3Ainfojobs.net%3Auser%3A32128330420%22;
+        IJE=DEf%2BsqOP62B4YbZoxeJW1ejcYMBdn3v%2B%2FsQR1kSH3hl5Bf4hc2jp5yKJt4cocXbMkopWq68gFp0tHE6Z
     Host: developer.infojobs.net
     Origin: https://developer.infojobs.net
     Referer: https://developer.infojobs.net/test-console/console.xhtml?dgv=5898536144957949562
@@ -386,7 +406,7 @@ __Form data__
 
 La respuesta es producida por el lado del servidor con la API y nos lo devuelve en el HTML dentro de <pre id="formattedBody">
 
-__My key de usuario es 38908077-2d61-4fa8-88fb-2409cc4da3ce__
+__My key de usuario es 38908077-2d61-4fa8-88fb-2409cc4da3ce dentro de la API__
 
 
 

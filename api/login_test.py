@@ -9,7 +9,7 @@ s = requests.Session()
 
 # LOGIN_URL = 'https://accounts.infojobs.net/security/accounts/login/run'
 # email = 'admin@victorciurana.com'
-# password = input('Password:')
+password = input('Password:')
 
 # post_data = {
 #     'type': '0',
@@ -49,33 +49,33 @@ access_url_01_post_data = {
 
 r = s.post(ACCESS_URL_01, headers=access_url_01_headers, data=access_url_01_post_data)
 print('Status code oauth? = %s' % r.status_code)
-# print('Oauth 1 response headers =')
-# pprint(s.headers)
-# pprint(s.cookies)
-
-# soup = BeautifulSoup(r.text, 'html.parser')
-# print(soup.prettify())
-
-API_URL = 'https://developer.infojobs.net/test-console/execute.xhtml'
-
-form_data = {
-    'urifield': 'https://api.infojobs.net/api/2/candidate',
-    'versionfield': '2',
-    'methodfield': 'GET',
-    'hmethodfield': 'GET',
-    'operationEntityField': '-candidate',
-    'attachment_type': 'Local',
-    'paramsAttached': '1',
-    'headersAttached': '1',
-    'bodyContentType': 'json'
-}
-
-# TODO: Usar Session
-r = s.post(API_URL, data=form_data, cookies=s.cookies)
-print('Status code segunda peticion = %s' % r.status_code)
-
+print('Oauth 1 response headers =')
+pprint(s.headers)
+pprint(s.cookies)
 
 soup = BeautifulSoup(r.text, 'html.parser')
+print(soup.prettify())
+
+# API_URL = 'https://developer.infojobs.net/test-console/execute.xhtml'
+
+# form_data = {
+#     'urifield': 'https://api.infojobs.net/api/2/candidate',
+#     'versionfield': '2',
+#     'methodfield': 'GET',
+#     'hmethodfield': 'GET',
+#     'operationEntityField': '-candidate',
+#     'attachment_type': 'Local',
+#     'paramsAttached': '1',
+#     'headersAttached': '1',
+#     'bodyContentType': 'json'
+# }
+
+# TODO: Usar Session
+# r = s.post(API_URL, data=form_data, cookies=s.cookies)
+# print('Status code segunda peticion = %s' % r.status_code)
+
+
+# soup = BeautifulSoup(r.text, 'html.parser')
 print(soup.prettify())
 
 ### TEST DONE ! a programar robot ! ###
