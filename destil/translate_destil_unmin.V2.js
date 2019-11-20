@@ -116,7 +116,10 @@
             } catch (e) {};
             if (stages_tiempo) {
                 var _0x9e50x15 = _0x9e50x9();
+                // XMLHttpRequest
                 _0x9e50x15[open](POST, js_with_PID, true);
+                // XMLHttpRequest 
+                
                 _0x9e50x15[send](_0x9e50x8 + = + stages_tiempo);
                 clearInterval(_intervaled_func);
                 try {
