@@ -7,6 +7,12 @@ todo es estatico, lo unico que veo es el getTime que cambiara.
 el numero entre los dos : es getTime() 
 por ahora se que  proof = Y:(new Date).getTime():random_str_len_20
 
-random_str_len_20 ??? creo vamos haha
+random_str_len_20 =             function t(e) {
+                for (var t = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz", r = "", n = 0; e > n; ++n) r += t.substr(Math.floor(Math.random() * t.length), 1);
+                return r
+            }
 
 TODO> hacer varias peticiones a ver el p= que cambios tiene haha
+
+Antes de mirarlo de verdad, el 20: determina len() de :random >?
+

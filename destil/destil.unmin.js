@@ -536,6 +536,9 @@
                         u([function(e) {
                             setTimeout(function() {
                                 function t(e) {
+                                    for (var t = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz", r = "", n = 0; e > n; ++n) r += t.substr(Math.floor(Math.random() * t.length), 1);
+                                    return r
+                                }
                                 h("DistilProofOfWorkStart");
                                 var r = new o,
                                     n = (new Date).getTime() + ":" + t(20);

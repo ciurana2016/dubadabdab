@@ -1,3 +1,4 @@
+ // 605
             mine: function(e, t, r) {
                 for (var i = 0, a = Math.pow(2, 32 - t);;) {
                     var o = i.toString(16) + ":" + e;
@@ -7,8 +8,12 @@
                 }
             }
 
-
+//  536
+        setTimeout(function() {
             function t(e) {
+                for (var t = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz", r = "", n = 0; e > n; ++n) r += t.substr(Math.floor(Math.random() * t.length), 1);
+                return r
+            }
             h("DistilProofOfWorkStart");
             var r = new o,
                 n = (new Date).getTime() + ":" + t(20);
@@ -18,3 +23,6 @@
                 })
             })
         }, 1)
+
+
+
