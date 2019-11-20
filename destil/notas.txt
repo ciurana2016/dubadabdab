@@ -12,7 +12,25 @@ random_str_len_20 =             function t(e) {
                 return r
             }
 
-TODO> hacer varias peticiones a ver el p= que cambios tiene haha
+TODO> hacer varias peticiones a ver el p= que cambios tiene haha y otras variables
+TODO> poco mas creo,    aah si de donde sale ese 20 de delante xd
 
 Antes de mirarlo de verdad, el 20: determina len() de :random >?
+Vale no lol ejemplo_huella_02 empieza con 14e:
 
+Cojer un par mas de huellas a ver
+
+Entre varias huellas solo hay 2 diferencias en el mismo navegador.
+    1. proof, la parte de delante (sacar eso) las otras partes son 
+        time y random string asi que con el pito lo saco
+    2. ['fp2']['devices']['data'] del 0 al 5, deviceId y groupId,
+    PEROOO, esperoa en un el huella_02 
+        "devices": {
+            "count": 0, "err": "unsupported-enumeratedevices"
+        }
+
+        navigator.mediaDevices.enumerateDevices
+        sale de alli, parece ser completamente ids aleatorios
+
+yay ahora nos queda copiar la lista de peticiones y respuestas de Burp, ya sabemos
+que tenemos que enviar en cada una.

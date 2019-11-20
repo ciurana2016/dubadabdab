@@ -1,5 +1,5 @@
 {
-    "proof":"20:1574273219940:lZ1jAbFYGILxqFQ5ln7x",
+    "proof":"207:1574293413206:6ocxVPnljRL27upyjavX",
     "cookies":1,
     "setTimeout":0,
     "setInterval":0,
@@ -78,27 +78,27 @@
             "count":6,
             "data": {
                 "0": {
-                    "deviceId": "gTZFvKj4I+cWmqIII0Bq+hGuJsq14hV09/3PTHE4Y5w=", "kind": "videoinput", "label": "", "groupId": "6s0ryP0Cwb7O9e7CSGrxk1ztTishdaxqpgxUdy/qoG8="
+                    "deviceId": "x1gYo39T0cyGmUF89OpHUwcXfG7dguMNrAga4W6zypQ=", "kind": "videoinput", "label": "", "groupId": "HPsrW3F9n6Sd38tvrPSQlZG0L/LHFzh3G0Oq0Ii4suU="
                 }
                 ,
                 "1": {
-                    "deviceId": "9+osa3dfZ53ZMj7a28qljhtP4fyP2GSENc/2a0V1JF4=", "kind": "audioinput", "label": "", "groupId": "abVcE0+HK6TaNF0RXM+C2x9pHlKeZLxPAoZVCnnaXQM="
+                    "deviceId": "3b0KswSChOLjm9gW+dkzB4QpDFNCMAKr70mUftBRLm4=", "kind": "audioinput", "label": "", "groupId": "Asicm1HQIo5Wd0uYBvM+O5d6HMs4maNWxzYkFHUlo54="
                 }
                 ,
                 "2": {
-                    "deviceId": "KVqOeNRxVNqg7jtkKxuELJWCTsKoAsxhiZRnBjId2ek=", "kind": "audioinput", "label": "", "groupId": "LrPJTC2f1lH34VlNbgdzRBXqjlLnf9Ae5JCtDPNO5QI="
+                    "deviceId": "lGjmSgDR6St1uAtiFam/b4gN7Z4VoFuXorHA3uFmqiw=", "kind": "audioinput", "label": "", "groupId": "XTyHn0sqw4wx7iwtsYJ/z7IWM9zemDzWS40REfJF1/w="
                 }
                 ,
                 "3": {
-                    "deviceId": "hJz0Oy4t6GW8hzgWFnHHpQKdJUeoJSZCKQAcIKF1pGU=", "kind": "audioinput", "label": "", "groupId": "+l511mKpGs9y4o4azsQk+CYdYdCUFHdp72VLL8294po="
+                    "deviceId": "flKUdwR7uIv2NJN2oAl3enKQamRGEyQerykNGfQ9DFQ=", "kind": "audioinput", "label": "", "groupId": "qrlGX55KDdGbv1t1PNHorO9erEimsKsXJN11490nSIw="
                 }
                 ,
                 "4": {
-                    "deviceId": "1bAWBktwge4S759sqQAv29Ksv2ShbUK/mfKtDLYXQDM=", "kind": "audioinput", "label": "", "groupId": "vDW638B9NFpWkDi2FhL+twgaAB63hLAxpBXa0aqkbeQ="
+                    "deviceId": "kIMxYGwIA0D7L6RcsceFKoC6oHYuOO7bVzMBgnamgx8=", "kind": "audioinput", "label": "", "groupId": "cU+VjfJQDsBMca3DWoNp68oijf7Gso6O7f89VzDLMzo="
                 }
                 ,
                 "5": {
-                    "deviceId": "soLXdc3IGmJPWD/2o3saJdNzlyml2bgz1EY/a3VTfYk=", "kind": "audioinput", "label": "", "groupId": "L52JBjr3cQRb6At91OMphZS/Q0Iz5/IcypCIzsTsBFg="
+                    "deviceId": "HOlHpTn6wVjvPl3pgP7mv6g9Ovy7ZDbVc0m8G/Z9cRY=", "kind": "audioinput", "label": "", "groupId": "coJlmQbgNJBdSu+77a1oJVORhLc3xbtXUdDCxRMGqDs="
                 }
             }
         }

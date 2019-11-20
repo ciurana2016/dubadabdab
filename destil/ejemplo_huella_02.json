@@ -1,30 +1,5 @@
 {
-    "proof":"20:1574273219940:lZ1jAbFYGILxqFQ5ln7x",
-    "cookies":1,
-    "setTimeout":0,
-    "setInterval":0,
-    "appName":"Netscape",
-    "platform":"MacIntel",
-    "syslang":"es-ES",
-    "userlang":"es-ES",
-    "cpu":"IntelMacOSX10.14",
-    "productSub":"20100101",
-    "plugins": {
-        "0": "ShockwaveFlash21.0.0.226"
-    }
-    ,
-    "mimeTypes": {
-        "0": "FutureSplashPlayerapplication/futuresplash", "1": "ShockwaveFlashapplication/x-shockwave-flash"
-    }
-    ,
-    "screen": {
-        "width": 1920, "height": 1080, "colorDepth": 24
-    }
-    ,
-    "fonts": {
-        "0": "HoeflerText", "1": "Monaco", "2": "Georgia", "3": "TrebuchetMS", "4": "Verdana", "5": "AndaleMono", "6": "Monaco", "7": "CourierNew", "8": "Courier"
-    }
-    ,
+    "proof":"14e:1574292995459:U8ybxmL0BhihgRuuX0sM",
     "fp2": {
         "userAgent": "Mozilla/5.0(Macintosh;IntelMacOSX10.14;rv:70.0)Gecko/20100101Firefox/70.0", "language":"es-ES", "screen": {
             "width": 1920, "height": 1080, "availHeight": 1080, "availWidth": 1920, "pixelDepth": 24, "innerWidth": 1132, "innerHeight": 890, "outerWidth": 1132, "outerHeight": 964, "devicePixelRatio": 1
@@ -70,37 +45,37 @@
         }
         ,
         "location": {
-            "protocol": "https:"
+            "protocol": "http:"
         }
         ,
         "fonts":"",
         "devices": {
-            "count":6,
-            "data": {
-                "0": {
-                    "deviceId": "gTZFvKj4I+cWmqIII0Bq+hGuJsq14hV09/3PTHE4Y5w=", "kind": "videoinput", "label": "", "groupId": "6s0ryP0Cwb7O9e7CSGrxk1ztTishdaxqpgxUdy/qoG8="
-                }
-                ,
-                "1": {
-                    "deviceId": "9+osa3dfZ53ZMj7a28qljhtP4fyP2GSENc/2a0V1JF4=", "kind": "audioinput", "label": "", "groupId": "abVcE0+HK6TaNF0RXM+C2x9pHlKeZLxPAoZVCnnaXQM="
-                }
-                ,
-                "2": {
-                    "deviceId": "KVqOeNRxVNqg7jtkKxuELJWCTsKoAsxhiZRnBjId2ek=", "kind": "audioinput", "label": "", "groupId": "LrPJTC2f1lH34VlNbgdzRBXqjlLnf9Ae5JCtDPNO5QI="
-                }
-                ,
-                "3": {
-                    "deviceId": "hJz0Oy4t6GW8hzgWFnHHpQKdJUeoJSZCKQAcIKF1pGU=", "kind": "audioinput", "label": "", "groupId": "+l511mKpGs9y4o4azsQk+CYdYdCUFHdp72VLL8294po="
-                }
-                ,
-                "4": {
-                    "deviceId": "1bAWBktwge4S759sqQAv29Ksv2ShbUK/mfKtDLYXQDM=", "kind": "audioinput", "label": "", "groupId": "vDW638B9NFpWkDi2FhL+twgaAB63hLAxpBXa0aqkbeQ="
-                }
-                ,
-                "5": {
-                    "deviceId": "soLXdc3IGmJPWD/2o3saJdNzlyml2bgz1EY/a3VTfYk=", "kind": "audioinput", "label": "", "groupId": "L52JBjr3cQRb6At91OMphZS/Q0Iz5/IcypCIzsTsBFg="
-                }
-            }
+            "count": 0, "err": "unsupported-enumeratedevices"
         }
+    }
+    ,
+    "cookies":1,
+    "setTimeout":0,
+    "setInterval":0,
+    "appName":"Netscape",
+    "platform":"MacIntel",
+    "syslang":"es-ES",
+    "userlang":"es-ES",
+    "cpu":"IntelMacOSX10.14",
+    "productSub":"20100101",
+    "plugins": {
+        "0": "ShockwaveFlash21.0.0.226"
+    }
+    ,
+    "mimeTypes": {
+        "0": "FutureSplashPlayerapplication/futuresplash", "1": "ShockwaveFlashapplication/x-shockwave-flash"
+    }
+    ,
+    "screen": {
+        "width": 1920, "height": 1080, "colorDepth": 24
+    }
+    ,
+    "fonts": {
+        "0": "HoeflerText", "1": "Monaco", "2": "Georgia", "3": "TrebuchetMS", "4": "Verdana", "5": "AndaleMono", "6": "Monaco", "7": "CourierNew", "8": "Courier"
     }
 }
