@@ -57,7 +57,8 @@ print('[*] Primer POST que falla apsta contra API')
 # Login permisos api
 # https://www.infojobs.net/api/oauth/user-authorize/index.xhtml?scope=CANDIDATE_PROFILE_WITH_EMAIL&client_id=devsite-test-console-net&redirect_uri=https://developer.infojobs.net/test-console/continue-request.xhtml&response_type=code&state=CANDIDATE_PROFILE_WITH_EMAIL
 # [1] Peticion fantasma por si acaso
-url = 'https://www.infojobs.net/api/oauth/user-authorize/index.xhtml?scope=CANDIDATE_PROFILE_WITH_EMAIL&client_id=devsite-test-console-net&redirect_uri=https://developer.infojobs.net/test-console/continue-request.xhtml&response_type=code&state=CANDIDATE_PROFILE_WITH_EMAIL'
+scopes = 'MY_APPLICATIONS,CANDIDATE_PROFILE_WITH_EMAIL'
+url = 'https://www.infojobs.net/api/oauth/user-authorize/index.xhtml?scope='+scopes+'&client_id=devsite-test-console-net&redirect_uri=https://developer.infojobs.net/test-console/continue-request.xhtml&response_type=code&state='+scopes
 r = s.get(url, verify=False)
 
 # [2] Ara si login
@@ -73,7 +74,7 @@ api_login_data = {
 r = s.post(url, data=api_login_data, verify=False)
 
 # [3] Clickar en Aceptar
-url = 'https://www.infojobs.net/api/oauth/user-authorize/index.xhtml?user_oauth_approval=true&auth_type=api&scopes=CANDIDATE_PROFILE_WITH_EMAIL'
+url = 'https://www.infojobs.net/api/oauth/user-authorize/index.xhtml?user_oauth_approval=true&auth_type=api&scopes='+scopes
 api_approval_data = {
     'client_id': 'devsite-test-console-net',
     'redirect_uri': 'https://developer.infojobs.net/test-console/continue-request.xhtml'
