@@ -18,6 +18,10 @@ from bs4 import BeautifulSoup
 
 '''
 
+# Quitar los warnings para cuando pasa por el proxy
+import urllib3
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
 plantilla_huella_digital = {
     "cookies":1,
     "setTimeout":0,
