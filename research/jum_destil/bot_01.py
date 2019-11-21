@@ -60,7 +60,6 @@ print('[*] Primer POST que falla apsta contra API')
 scopes = 'MY_APPLICATIONS,CANDIDATE_PROFILE_WITH_EMAIL'
 url = 'https://www.infojobs.net/api/oauth/user-authorize/index.xhtml?scope='+scopes+'&client_id=devsite-test-console-net&redirect_uri=https://developer.infojobs.net/test-console/continue-request.xhtml&response_type=code&state='+scopes
 r = s.get(url, verify=False)
-
 # [2] Ara si login
 url = 'https://accounts.infojobs.net/security/accounts/login/run'
 #s.headers['referer'] = 'https://www.infojobs.net/api/api-login/api-login.xhtml?client_id=devsite-test-console-net&redirect_uri=https://developer.infojobs.net/test-console/continue-request.xhtml&scope=CANDIDATE_PROFILE_WITH_EMAIL'
