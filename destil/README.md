@@ -6,6 +6,7 @@ Asi funciona la proteccion:
 3. El .js hace un **POST** a dominio.com/random.js?PID=CODIGO
     - El PID aparece a saco en el .js ,se genera de lado servidor? puede ser
     ya que tengo vatios archivos con PID distintos.
+    - Aparte que me doi cuenta ahora hay que sacar un HEADER ajax noseque, muy claro en el codigo easy gg
     - La huella digital esta en el parametro "p"  tipo json
     Ejemplo de huella digital generada en __ejemplo_huella.json__ (unminified y decoded)
     - La respuesta del **POST** anterior nos asigna 6 cookies (ejemplo) (max-age 30 dias creo):

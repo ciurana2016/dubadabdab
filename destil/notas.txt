@@ -33,4 +33,7 @@ Entre varias huellas solo hay 2 diferencias en el mismo navegador.
         sale de alli, parece ser completamente ids aleatorios
 
 yay ahora nos queda copiar la lista de peticiones y respuestas de Burp, ya sabemos
-que tenemos que enviar en cada una.
+que tenemos que enviar en cada una. (mas o menos a ver que pasa ahha)
+
+Antes de nada vamos a pasar el login que queremos hacer por Burp y luego lo recreamosxd.
+
