@@ -206,6 +206,12 @@ def main():
     post_data = {'p': str(huella_digital).replace("'",'"')}
     # Enviamos la peticion
     r = s.post(url_02, headers=headers_00, data=post_data, verify=False)
+    xuid = r.headers['X-UID']
+
+    # Ultimo get manual ?
+    url_03 = 'https://www.infojobs.net/distil_identify_cookie.html?httpReferrer=/api/oauth/user-authorize/index.xhtml?scope=CANDIDATE_PROFILE_WITH_EMAIL&client_id=devsite-test-console-net&redirect_uri=https://developer.infojobs.net/test-console/continue-request.xhtml&response_type=code&state=CANDIDATE_PROFILE_WITH_EMAIL'
+    url_03 += '&uid=' + xuid
+    r = s.get(url_03, headers=headers_00, verify=False)
 
 
 # MAIN SHIT
