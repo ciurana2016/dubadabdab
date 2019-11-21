@@ -71,6 +71,14 @@ api_login_data = {
     'password': password
 }
 r = s.post(url, data=api_login_data, verify=False)
+
+# [3] Clickar en Aceptar
+url = 'https://www.infojobs.net/api/oauth/user-authorize/index.xhtml?user_oauth_approval=true&auth_type=api&scopes=CANDIDATE_PROFILE_WITH_EMAIL'
+api_approval_data = {
+    'client_id': 'devsite-test-console-net',
+    'redirect_uri': 'https://developer.infojobs.net/test-console/continue-request.xhtml'
+}
+r = s.post(url, data=api_approval_data, verify=False)
 print('[*] Permisos a la api dados para -candidate')
 
 # Peticion a la "API"
