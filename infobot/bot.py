@@ -1,8 +1,12 @@
 import os
+import json
+import time
 import requests
 
 from output import output
+from random import uniform
 from getpass import getpass
+from bs4 import BeautifulSoup
 
 from login import info_login
 from distil import jump_distil
@@ -13,6 +17,8 @@ from distil import jump_distil
 class InfoBot(object):
 
     URL_INICIAL = 'https://www.infojobs.net'
+    API_URL = 'https://api.infojobs.net/api'
+    REQUEST_URL = 'https://developer.infojobs.net/test-console/execute.xhtml'
 
     def __init__(self):
         self.hello()
@@ -81,10 +87,82 @@ class InfoBot(object):
             )
             exit()
 
+    def sleep(self):
+        time.sleep(uniform(0.10, 1.5))
+
+    def api_request(self, request_data, paginating=False):
+
+        # Que haga las peticiones no tan uniformes
+        self.sleep()
+
+        response = self.session.post(
+            self.REQUEST_URL,
+            data=request_data,
+            verify=False
+        )
+        if response.status_code != 200:
+            output(
+                f'Peticion a {request_data["urifield"]} fallida con status code \
+                {response.status_code}, saliendo.'
+            )
+            exit()
+        output(
+            f'Peticion a {request_data["urifield"]} completada con exito',
+            'verde'
+        )
+
+        # Sacamos el json
+        soup = BeautifulSoup(response.text, 'html.parser')
+        html_elem = soup.find(id='formattedBody')
+        data = html_elem.string
+        self.last_json = json.loads(data)
+
+        if paginating:
+            return self.last_json
+
+        if 'currentPage' in self.last_json.keys():
+            all_pages = []
+            for n in range(1, self.last_json['totalPages']):
+                if n == 1:
+                    all_pages.append(self.last_json)
+                else:
+                    request_data['urifield'] = request_data['urifield'].replace(
+                        '&page=' + str(n-1),
+                        '&page=' + str(n)
+                    )
+                    response = self.api_request(request_data, paginating=True)
+                    all_pages.append(response)
+            return all_pages
+
+        else:
+            return self.last_json
+
+
+    def list_offers(self, keyword, province=False):
+        """
+            Devuelve una lista con muchos json
+            [{'currentPage':1,...}, {...}, ...]
+        """
+        url = self.API_URL + '/7/offer?q=' + keyword
+        if province:
+            url += '&province=' + province
+
+        url += '&page=1'
+
+        request_data = {
+            'urifield': url,
+            'methodfield': 'GET'
+        }
+
+        response = self.api_request(request_data)
+
+        return response
+        
 
 def main():
     ib = InfoBot()
-    # Buscar trabajos
+    ofertas_python = ib.list_offers('python')
+    print(len(ofertas_python))
 
 if __name__ == '__main__':
     main()

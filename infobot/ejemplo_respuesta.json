@@ -1,0 +1,1231 @@
+{
+    "currentPage":1,
+    "pageSize":20,
+    "totalResults":545,
+    "currentResults":20,
+    "totalPages":28,
+    "dataLayer": {
+        "es-sch-search_terms": "python", "es-sch-region_level2_id": "0"
+    }
+    ,
+    "offers":[ {
+        "id":"680fb899194c0896810ad0bff5c0d2",
+        "title":"Python Developer (Desarrollador Python) 40k-45k",
+        "province": {
+            "id": 9, "value": "Barcelona"
+        }
+        ,
+        "city":"Barcelona",
+        "link":"https://www.infojobs.net/barcelona/python-developer-desarrollador-python-40k-45k/of-i680fb899194c0896810ad0bff5c0d2",
+        "category": {
+            "id": 150, "value": "InformÃ¡tica y telecomunicaciones"
+        }
+        ,
+        "contractType": {
+            "id": 1, "value": "Indefinido"
+        }
+        ,
+        "subcategory": {
+            "id": 3124, "value": "ProgramaciÃ³n"
+        }
+        ,
+        "salaryMin": {
+            "id": 960, "value": "40.000 â?¬"
+        }
+        ,
+        "salaryMax": {
+            "id": 990, "value": "45.000 â?¬"
+        }
+        ,
+        "salaryPeriod": {
+            "id": 3, "value": "Bruto/aÃ±o"
+        }
+        ,
+        "experienceMin": {
+            "id": 6, "value": "Al menos 2 aÃ±os"
+        }
+        ,
+        "workDay": {
+            "id": 1, "value": "Completa"
+        }
+        ,
+        "study": {
+            "id": 130, "value": "IngenierÃ­a Superior"
+        }
+        ,
+        "published":"2019-11-21T18:05:12.000Z",
+        "updated":"2019-11-21T18:05:12.000Z",
+        "author": {
+            "id": "3452941f-2edd-41c4-a1c5-ed71c9453686", "name": "Empresa final de Software", "uri": "https://www.infojobs.net/empresa-final-de-software/em-i3452941f-2edd-41c4-a1c5-ed71c9453686", "corporateResponsive": false, "showCorporativeHeader": false
+        }
+        ,
+        "requirementMin":"",
+        "bold":false,
+        "urgent":false,
+        "color":false,
+        "applications":"0",
+        "subSegment":22,
+        "executive":false,
+        "salaryDescription":"40.000â?¬ - 45.000â?¬ Bruto/aÃ±o"
+    }
+    ,
+    {
+        "id":"d64fb1ae9a42fcb00b8e12d22af212",
+        "title":"Python Developer - Palma de Mallorca**",
+        "province": {
+            "id": 26, "value": "Islas Baleares/Illes Balears"
+        }
+        ,
+        "city":"Palma De Mallorca",
+        "link":"https://www.infojobs.net/palma-de-mallorca/python-developer-palma-mallorca**/of-id64fb1ae9a42fcb00b8e12d22af212",
+        "category": {
+            "id": 150, "value": "InformÃ¡tica y telecomunicaciones"
+        }
+        ,
+        "contractType": {
+            "id": 1, "value": "Indefinido"
+        }
+        ,
+        "subcategory": {
+            "id": 3124, "value": "ProgramaciÃ³n"
+        }
+        ,
+        "salaryMin": {
+            "id": 275, "value": "27.000 â?¬"
+        }
+        ,
+        "salaryMax": {
+            "id": 285, "value": "33.000 â?¬"
+        }
+        ,
+        "salaryPeriod": {
+            "id": 3, "value": "Bruto/aÃ±o"
+        }
+        ,
+        "experienceMin": {
+            "id": 6, "value": "Al menos 2 aÃ±os"
+        }
+        ,
+        "workDay": {
+            "id": 1, "value": "Completa"
+        }
+        ,
+        "study": {
+            "id": 60, "value": "Ciclo Formativo Grado Superior"
+        }
+        ,
+        "published":"2019-10-04T11:26:11.000Z",
+        "updated":"2019-10-04T11:26:11.000Z",
+        "author": {
+            "id": "98545551495550847366852018184925417705", "name": "TIBUQ TECHNOLOGY S.L.", "uri": "https://www.infojobs.net/tibuq-technology-s.l./em-i98545551495550847366852018184925417705", "corporateResponsive": false, "showCorporativeHeader": false
+        }
+        ,
+        "requirementMin":"Requisitos tÃ©cnicos\r\n\r\n- Python\r\n- Pandas\r\n- APIs\r\n- Scripting sobre google cloud",
+        "bold":false,
+        "urgent":false,
+        "color":false,
+        "applications":"6",
+        "subSegment":22,
+        "executive":false,
+        "salaryDescription":"27.000â?¬ - 33.000â?¬ Bruto/aÃ±o"
+    }
+    ,
+    {
+        "id":"955ff2681047578f341c53e54abcd8",
+        "title":"Programador Python",
+        "province": {
+            "id": 9, "value": "Barcelona"
+        }
+        ,
+        "city":"Barcelona",
+        "link":"https://www.infojobs.net/barcelona/programador-python/of-i955ff2681047578f341c53e54abcd8",
+        "category": {
+            "id": 150, "value": "InformÃ¡tica y telecomunicaciones"
+        }
+        ,
+        "contractType": {
+            "id": 1, "value": "Indefinido"
+        }
+        ,
+        "subcategory": {
+            "id": 3124, "value": "ProgramaciÃ³n"
+        }
+        ,
+        "salaryMin": {
+            "id": 0, "value": ""
+        }
+        ,
+        "salaryMax": {
+            "id": 0, "value": ""
+        }
+        ,
+        "salaryPeriod": {
+            "id": 0, "value": ""
+        }
+        ,
+        "experienceMin": {
+            "id": 6, "value": "Al menos 2 aÃ±os"
+        }
+        ,
+        "workDay": {
+            "id": 1, "value": "Completa"
+        }
+        ,
+        "study": {
+            "id": 60, "value": "Ciclo Formativo Grado Superior"
+        }
+        ,
+        "published":"2019-11-20T07:40:04.000Z",
+        "updated":"2019-11-20T07:40:04.000Z",
+        "author": {
+            "id": "254054524528007041633145552920", "name": "Logicalis Spain", "uri": "https://www.infojobs.net/logicalis-spain/em-i254054524528007041633145552920", "logoUrl": "https://cdn-yams.mpi-internal.com/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/67/67695bcb-91af-4a5c-8939-76e9742e438e?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NTQ5Nzc0MjQsImV4cCI6MTU4NjUxMzQyNCwicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzLzY3LzY3Njk1YmNiLTkxYWYtNGE1Yy04OTM5LTc2ZTk3NDJlNDM4ZSIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.KR6kSiOyLn6AGNwfa9x2MZ3FE1M9BHbatMg8eZBQ1qr_eRXTwm8JO-uZyOxptBZ51N5fEodSrGx94m_bXqNNmONOCQKp_P9zmW-6tG_e_eHfcsQ7xQfOQejuvp_8HiMSp9hy7Xoz6pDFvtKahc5QxCY5cW_XdsUeZrMEtX7418uvcTOy7PEkdYyWLwdeDD4OovwE8PSmzgHHDBQhIeZkmtz1WYlouiJc_JoBVlVowucN7oEV-g-dG_p7ml98Re7jxycTP832upUrQFxRyuCPJzphlIjNDuVymmwW9j59m40ShiGfvcR5Rnxv212SUnbEgWucQs41CZECbvPqKJPojA&AccessKeyId=d724d9a53d95a810", "corporateResponsive": false, "showCorporativeHeader": false
+        }
+        ,
+        "requirementMin":"Disponer de experiencia en:\r\n\r\n-Desarrollo web/aplicaciones.\r\n-Lenguajes de programaciÃ³n (Python, PHP, Java, .NET...).\r\n-Elastic Search.\r\n-Trabajo en equipo. ColaboraciÃ³n.",
+        "bold":false,
+        "urgent":false,
+        "color":false,
+        "applications":"0",
+        "subSegment":22,
+        "executive":false,
+        "salaryDescription":"Salario no disponible"
+    }
+    ,
+    {
+        "id":"f3cc62094e4b18886a999b971025c4",
+        "title":"DevOps Linux backend con python/django y/o go",
+        "province": {
+            "id": 9, "value": "Barcelona"
+        }
+        ,
+        "city":"Barcelona",
+        "link":"https://www.infojobs.net/barcelona/devops-linux-backend-con-python-django-go/of-if3cc62094e4b18886a999b971025c4",
+        "category": {
+            "id": 150, "value": "InformÃ¡tica y telecomunicaciones"
+        }
+        ,
+        "contractType": {
+            "id": 1, "value": "Indefinido"
+        }
+        ,
+        "subcategory": {
+            "id": 3124, "value": "ProgramaciÃ³n"
+        }
+        ,
+        "salaryMin": {
+            "id": 280, "value": "30.000 â?¬"
+        }
+        ,
+        "salaryMax": {
+            "id": 440, "value": "50.000 â?¬"
+        }
+        ,
+        "salaryPeriod": {
+            "id": 3, "value": "Bruto/aÃ±o"
+        }
+        ,
+        "experienceMin": {
+            "id": 6, "value": "Al menos 2 aÃ±os"
+        }
+        ,
+        "workDay": {
+            "id": 1, "value": "Completa"
+        }
+        ,
+        "study": {
+            "id": 60, "value": "Ciclo Formativo Grado Superior"
+        }
+        ,
+        "published":"2019-10-15T12:23:02.000Z",
+        "updated":"2019-11-19T15:30:01.000Z",
+        "author": {
+            "id": "50535154575711074823269019094726407097", "name": "JR Business Partner", "uri": "https://www.infojobs.net/jr-business-partner/em-i50535154575711074823269019094726407097", "corporateResponsive": false, "showCorporativeHeader": false
+        }
+        ,
+        "requirementMin":"Conocimientos tÃ©cnicos   y Experiencia  \r\nÂ·\tCon mÃ¡s de 2 aÃ±os de experiencia\r\nÂ·\tAlto conocimiento plataformas Linux\r\nÂ·\tAlto conocimiento de Backend con python/django y/o go\r\nÂ·\tConocimientos con  KVM, Kubernetes, Docker y ansible\r\nÂ·\tBBDD  \r\nÂ·\tCapacidad de anÃ¡lisis\r\nÂ·\tAlto nivel de interlocuciÃ³n con equipo de proyecto\r\nÂ·\tCapacidad de trabajo en equipo\r\nÂ·\tNivel de inglÃ©s Medio (oral y escrito)",
+        "bold":false,
+        "urgent":false,
+        "color":false,
+        "applications":"26",
+        "subSegment":31,
+        "executive":true,
+        "salaryDescription":"30.000â?¬ - 50.000â?¬ Bruto/aÃ±o"
+    }
+    ,
+    {
+        "id":"c2d6690e3c4fee8b1f6c115a22c560",
+        "title":"Programadores/as Python â?? Proyecto Big Data",
+        "province": {
+            "id": 33, "value": "Madrid"
+        }
+        ,
+        "city":"Madrid",
+        "link":"https://www.infojobs.net/madrid/programadores-python-proyecto-big-data/of-ic2d6690e3c4fee8b1f6c115a22c560",
+        "category": {
+            "id": 150, "value": "InformÃ¡tica y telecomunicaciones"
+        }
+        ,
+        "contractType": {
+            "id": 1, "value": "Indefinido"
+        }
+        ,
+        "subcategory": {
+            "id": 3124, "value": "ProgramaciÃ³n"
+        }
+        ,
+        "salaryMin": {
+            "id": 275, "value": "27.000 â?¬"
+        }
+        ,
+        "salaryMax": {
+            "id": 280, "value": "30.000 â?¬"
+        }
+        ,
+        "salaryPeriod": {
+            "id": 3, "value": "Bruto/aÃ±o"
+        }
+        ,
+        "experienceMin": {
+            "id": 2, "value": "Al menos 1 aÃ±o"
+        }
+        ,
+        "workDay": {
+            "id": 1, "value": "Completa"
+        }
+        ,
+        "study": {
+            "id": 55, "value": "FormaciÃ³n Profesional Grado Superior"
+        }
+        ,
+        "published":"2019-11-21T14:26:22.000Z",
+        "updated":"2019-11-21T14:26:22.000Z",
+        "author": {
+            "id": "8ad55e13af4109b53fdcafb5eda727", "name": "ACTIVEX", "uri": "https://www.infojobs.net/activex/em-i8ad55e13af4109b53fdcafb5eda727", "logoUrl": "https://cdn-yams.mpi-internal.com/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/ce/cea911ce-4a20-4616-aab6-620085e1153f?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NTI1NjQ1MzAsImV4cCI6MTU4NDEwMDUzMCwicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzL2NlL2NlYTkxMWNlLTRhMjAtNDYxNi1hYWI2LTYyMDA4NWUxMTUzZiIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.lX32ex6ABwS6xGsTJGSM9n7wUL37qMPd8BoN7xO992gibNZ7veWJnhwOwx5j0lVwd2ZLpYZ6SRQMdZOFpgV4aF68n74B-aqKqxZrYRXap0NpXOul-LbHD-CW1JfqnROXwR3kvoTp2xEHVL3hZkco3DvPjK5iIOHK-QzDT44zJVPIqORRVPe2ZHG3QvgiJPTNL3vtzun2HoMOn2XZ7D9O5WoPLsjc0LTs-8-o9vroDHy2kk4zB3Y7EuLME8Ri1OZjU5BKBuXo4J_moGc853nijKoZ-roxiqQ0twhxq8kwIdTiakB9Fm-4MY3LxhYdJgOPxa5-t1xLWu-axs-xqfiD3w&AccessKeyId=d724d9a53d95a810", "corporateResponsive": false, "showCorporativeHeader": false
+        }
+        ,
+        "requirementMin":"-Experiencia de al menos de un aÃ±o de experiencia en Python\r\n-\tValorable conocimientos y/o experiencia en SAS, PySpark, SFMC, etc",
+        "bold":false,
+        "urgent":false,
+        "color":false,
+        "applications":"0",
+        "subSegment":23,
+        "executive":false,
+        "salaryDescription":"27.000â?¬ - 30.000â?¬ Bruto/aÃ±o"
+    }
+    ,
+    {
+        "id":"25fba68bc84c82a54ada5f796a1a74",
+        "title":"Desarrollador python Big Data",
+        "province": {
+            "id": 33, "value": "Madrid"
+        }
+        ,
+        "city":"Madrid",
+        "link":"https://www.infojobs.net/madrid/desarrollador-python-big-data/of-i25fba68bc84c82a54ada5f796a1a74",
+        "category": {
+            "id": 150, "value": "InformÃ¡tica y telecomunicaciones"
+        }
+        ,
+        "contractType": {
+            "id": 1, "value": "Indefinido"
+        }
+        ,
+        "subcategory": {
+            "id": 3124, "value": "ProgramaciÃ³n"
+        }
+        ,
+        "salaryMin": {
+            "id": 275, "value": "27.000 â?¬"
+        }
+        ,
+        "salaryMax": {
+            "id": 290, "value": "36.000 â?¬"
+        }
+        ,
+        "salaryPeriod": {
+            "id": 3, "value": "Bruto/aÃ±o"
+        }
+        ,
+        "experienceMin": {
+            "id": 6, "value": "Al menos 2 aÃ±os"
+        }
+        ,
+        "workDay": {
+            "id": 1, "value": "Completa"
+        }
+        ,
+        "study": {
+            "id": 120, "value": "IngenierÃ­a TÃ©cnica"
+        }
+        ,
+        "published":"2019-11-20T11:24:57.000Z",
+        "updated":"2019-11-20T11:24:57.000Z",
+        "author": {
+            "id": "66565255565157846967781007316054404789", "name": "TECNOY", "uri": "https://www.infojobs.net/tecnoy/em-i66565255565157846967781007316054404789", "logoUrl": "https://cdn-yams.mpi-internal.com/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/52/5234cb3b-ca6c-46a4-a951-59484fe647d3?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1MjQ1ODI2MzIsImV4cCI6MTU4NzY2MTgzMiwicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzLzUyLzUyMzRjYjNiLWNhNmMtNDZhNC1hOTUxLTU5NDg0ZmU2NDdkMyIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.LcFK-hT77-ULXJemvOLyaZm3xOVWW4J1QfF2Y-rFq3AqrgYamWvzV7zhTpCWlHVPZ8trWgv60XIBG1ewagzO65DrQm2fQLpN4Aw5ciqClSgNLN92_yknDh3n-nNgW4hZyea-XxLK2shCk_pzE3yFC83G2VDu5OUaHN7itt3s59BTKJMLyQlb1gFwTwbkv-UwHBwna1bmsYrnAY0umTUS0k5RUCyHLFIccx7b8rYDI_eK_AIVJMhec9kgOM5zVl7y_J0sUV2tZuhxZfTUlMKQD_E5TjezI7hihs_wn0JGQssQBsPUStwUbCsIeAN_AC-kNyVq2ucT_In-tko72rueNg&AccessKeyId=d724d9a53d95a810", "corporateResponsive": false, "showCorporativeHeader": false
+        }
+        ,
+        "requirementMin":"Grado en InformÃ¡tica, telecomunicaciones o similar.\r\nTener experiencia en diseÃ±o, gestiÃ³n y mantenimiento de soluciones BIG DATA con Cloudera o Horton. Conocimientos elevados en HDFS, HIVE, IMPALA, SPARK.\r\nHaber participado en anÃ¡lisis de requerimientos, selecciÃ³n de plataformas, diseÃ±o de la arquitectura tÃ©cnica\r\nConocimiento y experiencia en metodologÃ­as Ã?giles\r\nBuenas capacidades de comunicaciÃ³n, que permita de transmitir la complejidad del BigData a tÃ©cnicos, jefes de proyecto, etc.\r\n\r\nRequisitos deseados\r\nConocimientos en Scala ,Java, Python, R .\r\nConocimientos en Informatica Powercenter.\r\nExperiencia en integraciÃ³n de herramientas BI (BO, SAS, Qlikview) con datalake.\r\nConocimientos de arquitectura de sistemas.\r\nConocimiento sobre seguridad y privacidad de los datos.\r\nConocimientos de soluciones en Cloud.\r\nConocimientos del sector seguros o sector financiero.",
+        "bold":false,
+        "urgent":false,
+        "color":false,
+        "applications":"1",
+        "subSegment":22,
+        "executive":false,
+        "salaryDescription":"27.000â?¬ - 36.000â?¬ Bruto/aÃ±o"
+    }
+    ,
+    {
+        "id":"acedbed11b4d52a02e676a29753bc7",
+        "title":"SENIOR PYTHON DEVELOPER",
+        "province": {
+            "id": 19, "value": "Girona"
+        }
+        ,
+        "city":"Sils",
+        "link":"https://www.infojobs.net/sils/senior-python-developer/of-iacedbed11b4d52a02e676a29753bc7",
+        "category": {
+            "id": 150, "value": "InformÃ¡tica y telecomunicaciones"
+        }
+        ,
+        "contractType": {
+            "id": 1, "value": "Indefinido"
+        }
+        ,
+        "subcategory": {
+            "id": 3124, "value": "ProgramaciÃ³n"
+        }
+        ,
+        "salaryMin": {
+            "id": 0, "value": ""
+        }
+        ,
+        "salaryMax": {
+            "id": 0, "value": ""
+        }
+        ,
+        "salaryPeriod": {
+            "id": 0, "value": ""
+        }
+        ,
+        "experienceMin": {
+            "id": 6, "value": "Al menos 2 aÃ±os"
+        }
+        ,
+        "workDay": {
+            "id": 1, "value": "Completa"
+        }
+        ,
+        "study": {
+            "id": 130, "value": "IngenierÃ­a Superior"
+        }
+        ,
+        "published":"2019-10-22T14:14:45.000Z",
+        "updated":"2019-11-19T17:00:02.000Z",
+        "author": {
+            "id": "98535349535549756586690018093366616065", "name": "KAVE HOME", "uri": "https://www.infojobs.net/kave-home/em-i98535349535549756586690018093366616065", "logoUrl": "https://cdn-yams.mpi-internal.com/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/56/56ad8645-6711-4782-a159-a1badcbff917?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1MzkxNjEzMTAsImV4cCI6MTYwMjIzMzMxMCwicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzLzU2LzU2YWQ4NjQ1LTY3MTEtNDc4Mi1hMTU5LWExYmFkY2JmZjkxNyIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.A2orP1n9XcbHvmyGnu4W_N6_iDBzY_KYP5aGGPVWa89a2bkJG9HENfWO83K6Y_wtOTrcyT-D0Xuequ6FrHMwCzIoHE_ffYoiw9N6pltXu5_aaiADqyMDGlaomGVl_SjfTn5wF9gPp1DKmIHhL0TA1jtWBW-n3Nz1ID-QKr-K_a9rVudpJ-yqjTV34dyDlkDDHByhEtfRl6dj-qdsq2sVnLAx45CbrFGSp8TCh1FQwaql85YKQgcTk_ucjWv_tj88GcDbh8P4bLPRwYGqaZMsi2JOiWNWOnqO0GoLL6an7trIyRWTj0li0evjK_lumTQ4H94DagiKOnVTWKGQx8uPAQ&AccessKeyId=d724d9a53d95a810", "corporateResponsive": false, "showCorporativeHeader": false
+        }
+        ,
+        "requirementMin":"Eres nuestro candidato ideal si..\r\n\r\nTienes experiencia en el desarrollo de proyecto e-commerce con Python y buscas una empresa que te ayude a seguir creciendo como profesional. Eres una persona proactiva y con ganas de proponer e implementar mejoras constantemente. \r\nSe requiere conocimientos avanzados y experiencia trabajando con:\r\n-Python/Django\r\n-API Rest\r\n-JQuery y Javascript\r\n-SQL\r\n-Dominio de herramientas de control de versiones\r\nSe valorarÃ¡:\r\n-Conocimiento Oscar Commerce\r\n-Conocimientos de Docker\r\n-Arquitectura de microservicios\r\n-Conocimientos de frameworks como Boostrap, Angular JS, etc..\r\n\r\nY sobre todo.. Â¡eres una persona comprometida y con ganas de formar parte de una empresa muy dinÃ¡mica y en constante evoluciÃ³n!\r\n\r\nSuena bien, Â¿no? Â¡Te esperamos!",
+        "bold":false,
+        "urgent":false,
+        "color":false,
+        "applications":"7",
+        "subSegment":22,
+        "executive":false,
+        "salaryDescription":"Salario no disponible"
+    }
+    ,
+    {
+        "id":"1adfba7a6a466cb4fc9a4ff0ae2301",
+        "title":"Desarrollador PYTHON con INGLES alto",
+        "province": {
+            "id": 33, "value": "Madrid"
+        }
+        ,
+        "city":"Madrid",
+        "link":"https://www.infojobs.net/madrid/desarrollador-python-con-ingles-alto/of-i1adfba7a6a466cb4fc9a4ff0ae2301",
+        "category": {
+            "id": 150, "value": "InformÃ¡tica y telecomunicaciones"
+        }
+        ,
+        "contractType": {
+            "id": 1, "value": "Indefinido"
+        }
+        ,
+        "subcategory": {
+            "id": 3114, "value": "Telecomunicaciones"
+        }
+        ,
+        "salaryMin": {
+            "id": 275, "value": "27.000 â?¬"
+        }
+        ,
+        "salaryMax": {
+            "id": 290, "value": "36.000 â?¬"
+        }
+        ,
+        "salaryPeriod": {
+            "id": 3, "value": "Bruto/aÃ±o"
+        }
+        ,
+        "experienceMin": {
+            "id": 1, "value": "No Requerida"
+        }
+        ,
+        "workDay": {
+            "id": 1, "value": "Completa"
+        }
+        ,
+        "study": {
+            "id": 55, "value": "FormaciÃ³n Profesional Grado Superior"
+        }
+        ,
+        "published":"2019-11-18T16:01:34.000Z",
+        "updated":"2019-11-18T16:01:34.000Z",
+        "author": {
+            "id": "66565152535256767971870006116101610306", "name": "LOGNEXT", "uri": "https://www.infojobs.net/lognext/em-i66565152535256767971870006116101610306", "logoUrl": "https://cdn-yams.mpi-internal.com/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/b2/b2cba994-8009-4374-8ab5-e88eddbb7266?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1MjQ1ODAxODEsImV4cCI6MTU4NzY1OTM4MSwicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzL2IyL2IyY2JhOTk0LTgwMDktNDM3NC04YWI1LWU4OGVkZGJiNzI2NiIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.SJ0Gs8DLwORRZV75Kx_hUVgTnZq_lg28K6nC0P7sU4uAuT_Vf5TFJA8cgYOYNFLOdLQvPcenpuGOafb8iG6vr49IDuP3qyv4x4vLsLPyIQifJuJMk9nmWzpLdUtK7V0k7YA2WQa9Y_3NbeZyyo-unwpWcj5yYxChpjfml64M7iLRAhGjc-wx2t4lS9gCzw51ogGI12AG8JWg_HeTflKvtKpSdIrMCk9fcKOKRenIM7LGrHvfYAyCSy8y08hPPO1RbpqXd-exByJz3aNRaCfLztSmqOC3Lm50lmjPYdk26aafcaP3e2wkcexrAsieq8cYxVmLJUmTFHRLpwFUfNFiOA&AccessKeyId=d724d9a53d95a810", "corporateResponsive": false, "showCorporativeHeader": false
+        }
+        ,
+        "requirementMin":"Conocimientos imprescindibles:\r\nâ?¢\tProgramaciÃ³n con Python\r\nâ?¢\tGestiÃ³n de repositorios GIT\r\nâ?¢\tConocimientos de herramientas CI/CD (Jenkins)\r\nâ?¢\tAdministraciÃ³n de Ansible playbooks\r\nâ?¢\tGestiÃ³n e integraciÃ³n de APIs\r\nâ?¢\tDocker/Kubernetes\r\nâ?¢\tArquitectura de microservicios\r\nâ?¢\tMonitorizaciÃ³n de microservicios\r\n\r\n\r\n   Muy valorable, pero no imprescindible :\r\nâ?¢\tAnsible Tower\r\nâ?¢\tArtifactory\r\nâ?¢\tAVI (Load Balancing Service)\r\nâ?¢\tElastic Stack (ELS/Kibana)\r\n\r\n\r\n   Soft skills imprescindibles:\r\nInglÃ©s fluido\r\nMentalidad abierta y elevada capacidad de resoluciÃ³n de problemas.",
+        "bold":false,
+        "urgent":false,
+        "color":false,
+        "applications":"1",
+        "subSegment":23,
+        "executive":false,
+        "salaryDescription":"27.000â?¬ - 36.000â?¬ Bruto/aÃ±o"
+    }
+    ,
+    {
+        "id":"92ff6f73564d20a5c0d79705c75289",
+        "title":"Junior Java/Python Developer Tech Support Google Cloud Platform",
+        "province": {
+            "id": 9, "value": "Barcelona"
+        }
+        ,
+        "city":"Barcelona",
+        "link":"https://www.infojobs.net/barcelona/junior-java-python-developer-tech-support-google-cloud-platform/of-i92ff6f73564d20a5c0d79705c75289",
+        "category": {
+            "id": 150, "value": "InformÃ¡tica y telecomunicaciones"
+        }
+        ,
+        "contractType": {
+            "id": 1, "value": "Indefinido"
+        }
+        ,
+        "subcategory": {
+            "id": 3124, "value": "ProgramaciÃ³n"
+        }
+        ,
+        "salaryMin": {
+            "id": 275, "value": "27.000 â?¬"
+        }
+        ,
+        "salaryMax": {
+            "id": 285, "value": "33.000 â?¬"
+        }
+        ,
+        "salaryPeriod": {
+            "id": 3, "value": "Bruto/aÃ±o"
+        }
+        ,
+        "experienceMin": {
+            "id": 1, "value": "No Requerida"
+        }
+        ,
+        "workDay": {
+            "id": 1, "value": "Completa"
+        }
+        ,
+        "study": {
+            "id": 60, "value": "Ciclo Formativo Grado Superior"
+        }
+        ,
+        "published":"2019-11-18T13:28:34.000Z",
+        "updated":"2019-11-18T13:28:34.000Z",
+        "author": {
+            "id": "963053524526522502930125454729", "name": "Webhelp Spain", "uri": "https://webhelp.trabajo.infojobs.net", "logoUrl": "https://cdn-yams.mpi-internal.com/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/0d/0df83588-d08c-4d08-b407-1df59e5df789?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NzAxMDU1OTMsImV4cCI6MTYwMTY0MTU5MywicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzLzBkLzBkZjgzNTg4LWQwOGMtNGQwOC1iNDA3LTFkZjU5ZTVkZjc4OSIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.iH_agU-ainrrCQ6FXV8lVSRiCrbkiHFvxClZrx--7AwO4NXBZVQhBa4cCaKXuKWT_YLrvvaW46hSGZrUflwNYs9xDd__TtrV1TwO_G53RvOj3gA9-xp6ioRNIJZLzFFZzvNZkrxXNF1pui_iOk7W-eVQFbFnc-2z-2Zlc1-Bl96nqGUxjxKG3A4M5OH8RNPCpTwas6IreJmAatBCE9rnGQYeUtcikpRhfx-0YtjDbJ-7IvvSRyUFPK1zzyW4q8w2-umC6CftUJTduwwopNIHstXeHWF9pkn48jb2NQS1GSCYUmtKb9P3mb5Ezp0jMAg9sR5Rq8c19LJ4vNnMElYk9Q&AccessKeyId=d724d9a53d95a810", "corporateResponsive": true, "showCorporativeHeader": true
+        }
+        ,
+        "requirementMin":"100% fluent in English (minimum C1) \r\nEuropean citizenship or work permit in Spain\r\nFirm understanding of programming (Python or Java)\r\nPrevious experience as developer (academic or professional)\r\nExperience with Linux/UNIX\r\nExperience with relational SQL and NoSQL databases\r\nFamiliar with web protocols (HTTP, DNS, SSL/TLS etc)\r\nAbility to research using internal knowledge bases and public facing documentation (Google Cloud Platform documentation, StackOverflow)",
+        "bold":false,
+        "urgent":false,
+        "color":false,
+        "applications":"3",
+        "subSegment":22,
+        "executive":false,
+        "salaryDescription":"27.000â?¬ - 33.000â?¬ Bruto/aÃ±o"
+    }
+    ,
+    {
+        "id":"1340972bc94f359540f323e0537285",
+        "title":"Programador Python para Sistemas Cloud",
+        "province": {
+            "id": 33, "value": "Madrid"
+        }
+        ,
+        "city":"Madrid",
+        "link":"https://www.infojobs.net/madrid/programador-python-para-sistemas-cloud/of-i1340972bc94f359540f323e0537285",
+        "category": {
+            "id": 150, "value": "InformÃ¡tica y telecomunicaciones"
+        }
+        ,
+        "contractType": {
+            "id": 1, "value": "Indefinido"
+        }
+        ,
+        "subcategory": {
+            "id": 3124, "value": "ProgramaciÃ³n"
+        }
+        ,
+        "salaryMin": {
+            "id": 285, "value": "33.000 â?¬"
+        }
+        ,
+        "salaryMax": {
+            "id": 290, "value": "36.000 â?¬"
+        }
+        ,
+        "salaryPeriod": {
+            "id": 3, "value": "Bruto/aÃ±o"
+        }
+        ,
+        "experienceMin": {
+            "id": 6, "value": "Al menos 2 aÃ±os"
+        }
+        ,
+        "workDay": {
+            "id": 1, "value": "Completa"
+        }
+        ,
+        "study": {
+            "id": 60, "value": "Ciclo Formativo Grado Superior"
+        }
+        ,
+        "published":"2019-11-18T09:11:22.000Z",
+        "updated":"2019-11-18T09:11:22.000Z",
+        "author": {
+            "id": "965450524526202450963215554868", "name": "novanotio", "uri": "https://novanotio.ofertas-trabajo.infojobs.net", "logoUrl": "https://cdn-yams.mpi-internal.com/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/dc/dccaf0b4-a367-4ddf-8223-fb6cbcf9a444?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NDE0OTM3MjksImV4cCI6MTYwNDU2NTcyOSwicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzL2RjL2RjY2FmMGI0LWEzNjctNGRkZi04MjIzLWZiNmNiY2Y5YTQ0NCIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.e0bskvOHt5FkX3bvRSYDMZaNzQVHGFBF9Sa8oSePGP6iT3YOPEWaIRYGbF3ozkSSotop1rlOg3OA6gAmsP00EUIe7eizL11h0OHC3e50Kj_KKm3zoyPqnBiLHr_v5ONZfDOlv6EnmmSHMpp7idH9ADs5_npBuf4cfcbTD03ZgzNzXrqUxzkY1mUNsqJkxGV2wAh6_h3MWd17mJpgD8RNv271U4-YHH0cDHkV4fajiYmrz1IlfUeae91cpO-QrEmzO0l_V1ZysH0x4rQyH40unlWGHL7HWdwUIpKUFUot--lSU5uOW4TTt_hDmqoA2CA687SQ3ekK4mL22HpwSHpA1g&AccessKeyId=d724d9a53d95a810", "corporateResponsive": false, "showCorporativeHeader": false
+        }
+        ,
+        "requirementMin":"-Python\r\n- AWS o Azure\r\n- Procesos ETL",
+        "bold":false,
+        "urgent":false,
+        "color":false,
+        "applications":"5",
+        "subSegment":22,
+        "executive":false,
+        "salaryDescription":"33.000â?¬ - 36.000â?¬ Bruto/aÃ±o"
+    }
+    ,
+    {
+        "id":"0be6143ad249b78131134b0d1d4865",
+        "title":"Programador Java/Python",
+        "province": {
+            "id": 49, "value": "Valencia/ValÃ¨ncia"
+        }
+        ,
+        "city":"Valencia",
+        "link":"https://www.infojobs.net/valencia/programador-java-python/of-i0be6143ad249b78131134b0d1d4865",
+        "category": {
+            "id": 150, "value": "InformÃ¡tica y telecomunicaciones"
+        }
+        ,
+        "contractType": {
+            "id": 1, "value": "Indefinido"
+        }
+        ,
+        "subcategory": {
+            "id": 3124, "value": "ProgramaciÃ³n"
+        }
+        ,
+        "salaryMin": {
+            "id": 275, "value": "27.000 â?¬"
+        }
+        ,
+        "salaryMax": {
+            "id": 290, "value": "36.000 â?¬"
+        }
+        ,
+        "salaryPeriod": {
+            "id": 3, "value": "Bruto/aÃ±o"
+        }
+        ,
+        "experienceMin": {
+            "id": 5, "value": "MÃ¡s de 5 aÃ±os"
+        }
+        ,
+        "workDay": {
+            "id": 1, "value": "Completa"
+        }
+        ,
+        "study": {
+            "id": 35, "value": "Ciclo Formativo Grado Medio"
+        }
+        ,
+        "published":"2019-11-15T10:45:15.000Z",
+        "updated":"2019-11-15T10:45:15.000Z",
+        "author": {
+            "id": "e771ecbec04af2af9a68986a1b3a8e", "name": "BOYCOR", "uri": "https://www.infojobs.net/boycor/em-ie771ecbec04af2af9a68986a1b3a8e", "logoUrl": "https://cdn-yams.mpi-internal.com/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/0a/0a0dab95-d9c6-4660-9dc7-56ebd4978802?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NDE0OTMyODMsImV4cCI6MTYwNDU2NTI4MywicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzLzBhLzBhMGRhYjk1LWQ5YzYtNDY2MC05ZGM3LTU2ZWJkNDk3ODgwMiIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.PxSVO--ZT4hW9WVTJdRIZoSUWVL6D1LM2c0X8I63fjeyVe8d6mvZZzQNX70ffuqN6_IJUuuiC1kYTK6lgECJQYvDPN5JZHi2oDSjcY5pnUaSbD9Co-IUyD1XDn_iZLyay9qWefEtkwJ-5OqGn_dRf5AA_QY9erFxH3ERViswX3z0xleSAots24hr2QNVzrM-3c4jTylfK5WT0PMn14ME5DNOVySrgxPShZ9TmCMKPTUTz2GvfjDE74UTpWdGhdngBWX9RWUT1pbpVU_RrSD_TQu6uijSWi7zburtXCGlAIe6-KMildxy4rs_aeQNxba5yM3e-FKB_9zQafkWY3dy5A&AccessKeyId=d724d9a53d95a810", "corporateResponsive": false, "showCorporativeHeader": false
+        }
+        ,
+        "requirementMin":"REQUERIMOS:\r\nExperiencia en:\r\nDesarrollo web JEE\r\n\r\nDeseable:\r\nJavascript (frameworks de ultima generaciÃ³n)\r\nPython\r\nAndroid\r\nDocker\r\nsistemas de transporte",
+        "bold":false,
+        "urgent":false,
+        "color":false,
+        "applications":"9",
+        "subSegment":23,
+        "executive":false,
+        "salaryDescription":"27.000â?¬ - 36.000â?¬ Bruto/aÃ±o"
+    }
+    ,
+    {
+        "id":"523014836d4250a79f069d0e8ce326",
+        "title":"Analista Programador Python",
+        "province": {
+            "id": 33, "value": "Madrid"
+        }
+        ,
+        "city":"Las Rozas De Madrid",
+        "link":"https://www.infojobs.net/las-rozas-de-madrid/analista-programador-python/of-i523014836d4250a79f069d0e8ce326",
+        "category": {
+            "id": 150, "value": "InformÃ¡tica y telecomunicaciones"
+        }
+        ,
+        "contractType": {
+            "id": 1, "value": "Indefinido"
+        }
+        ,
+        "subcategory": {
+            "id": 3124, "value": "ProgramaciÃ³n"
+        }
+        ,
+        "salaryMin": {
+            "id": 0, "value": ""
+        }
+        ,
+        "salaryMax": {
+            "id": 0, "value": ""
+        }
+        ,
+        "salaryPeriod": {
+            "id": 0, "value": ""
+        }
+        ,
+        "experienceMin": {
+            "id": 2, "value": "Al menos 1 aÃ±o"
+        }
+        ,
+        "workDay": {
+            "id": 1, "value": "Completa"
+        }
+        ,
+        "study": {
+            "id": 60, "value": "Ciclo Formativo Grado Superior"
+        }
+        ,
+        "published":"2019-11-13T09:43:55.000Z",
+        "updated":"2019-11-13T09:43:55.000Z",
+        "author": {
+            "id": "964249424526202950883214850774", "name": "GRUPO CMC", "uri": "https://cmc.ofertas-trabajo.infojobs.net", "logoUrl": "https://cdn-yams.mpi-internal.com/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/63/632ec4ab-50fc-426f-84f3-7653ccd43117?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NTA3MzU1MDgsImV4cCI6MTU4MjI3MTUwOCwicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzLzYzLzYzMmVjNGFiLTUwZmMtNDI2Zi04NGYzLTc2NTNjY2Q0MzExNyIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.JkFQyXap_gjkYxCnOj5bQUwkcVwjhH4XrjVPDqsf53TeyfnD-ZcTI4hbxL8fdDD-6oeS4rVnfwYfbto1JeGm74Dgrb0ujxacpOy--VWSkcomeBayqMT3c7vyyINYQiFwZYYI3uFVVhQkf0Clfb2Jvvqyx_gWdq9pyVXL-kRHOkEF7EppxxH206H6kWbpXqYtFkV_fjrqSxfTnwWW8QpVfbjwsBRYW-h8RpKvKV_irCuRKC26DfLh92kB8CA71bjxFP87ttA8c0uud8Y0QmqGycflD7RXTi8KvAxUvXKKVAKmJVd98iExunKq5_TXWf8VBQOVAfR29dPMRnNivWyjDg&AccessKeyId=d724d9a53d95a810", "corporateResponsive": false, "showCorporativeHeader": false
+        }
+        ,
+        "requirementMin":"-Experiencia de al menos 3 aÃ±os como analista programador Python.\r\n\r\nValorable:\r\n- Conocimientos en java y c++",
+        "bold":false,
+        "urgent":false,
+        "color":false,
+        "applications":"0",
+        "subSegment":22,
+        "executive":false,
+        "salaryDescription":"Salario no disponible"
+    }
+    ,
+    {
+        "id":"e995b53cab4a208f5ce0a72d252d32",
+        "title":"Python / Go",
+        "province": {
+            "id": 9, "value": "Barcelona"
+        }
+        ,
+        "city":"Barcelona",
+        "link":"https://www.infojobs.net/barcelona/python-go/of-ie995b53cab4a208f5ce0a72d252d32",
+        "category": {
+            "id": 150, "value": "InformÃ¡tica y telecomunicaciones"
+        }
+        ,
+        "contractType": {
+            "id": 1, "value": "Indefinido"
+        }
+        ,
+        "subcategory": {
+            "id": 3124, "value": "ProgramaciÃ³n"
+        }
+        ,
+        "salaryMin": {
+            "id": 0, "value": ""
+        }
+        ,
+        "salaryMax": {
+            "id": 0, "value": ""
+        }
+        ,
+        "salaryPeriod": {
+            "id": 0, "value": ""
+        }
+        ,
+        "experienceMin": {
+            "id": 3, "value": "Al menos 3 aÃ±os"
+        }
+        ,
+        "workDay": {
+            "id": 1, "value": "Completa"
+        }
+        ,
+        "study": {
+            "id": 60, "value": "Ciclo Formativo Grado Superior"
+        }
+        ,
+        "published":"2019-10-28T16:44:24.000Z",
+        "updated":"2019-11-04T17:53:55.000Z",
+        "author": {
+            "id": "766253524537002491626105554464", "name": "Talent Search People", "uri": "https://www.infojobs.net/talent-search-people/em-i766253524537002491626105554464", "logoUrl": "https://cdn-yams.mpi-internal.com/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/92/923421f2-3d2c-4a58-9c03-48e9c64c43b5?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1MzIwNzM4NjgsImV4cCI6MTU5NTE0NTg2OCwicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzLzkyLzkyMzQyMWYyLTNkMmMtNGE1OC05YzAzLTQ4ZTljNjRjNDNiNSIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.JPWhjtiFyX494jUySCxBhAjn-NiZxNc4t89KNK6cAlB0OOsGRn8ETQDuhec9HrPXVRMM1OibxUPzX5spHqu5OIcckSQ56MDnh3oKlvZR3ewtN444em-pGu53oS1idGZdmR8et6x2nYc3tS6deQUm7IaxIjUl7LjmKKOExwoiAWcIF5td0VTNpUDq-Zq5EncA9Q8SajW_o7LSBAeBEcMbAIyGb0q1w3PaMk1cjzW_s9dTEYU7kFTRGoLvJtZcLf2PRP_Yi-zds3xYa8G8MnRs2ZbKD2XQK8kgJRTPlaOu49eP7kQ4IMNr_jiN0QiuzkBL4ZrakNRlqGvBHUrnYSWjuA&AccessKeyId=d724d9a53d95a810", "corporateResponsive": false, "showCorporativeHeader": false
+        }
+        ,
+        "requirementMin":"Eres la persona que buscamos si:\r\n\r\n-Eres Licenciado/a en InformÃ¡tica o experiencia similar en el campo tÃ©cnico\r\n-Eres excelente codificador, que escribe cÃ³digo limpio y mantenible\r\n-Tienes experiencia diseÃ±ando y desarrollando API REST\r\n-Tienes experiencia operando un clÃºster de Kubernetes\r\n-Tienes experiencia diseÃ±ando modelos robustos de datos relacionales\r\n-Te motivan los desafÃ­os tÃ©cnicos difÃ­ciles\r\n-Tienes amor por el aprendizaje y la pasiÃ³n cuando se trata de ayudar a los demÃ¡s\r\n\r\nNice to have:\r\n-Si tienes experiencia en programaciÃ³n Go y / o Python (Django)\r\n-Que tengas buena comprensiÃ³n de SQL\r\n-Comprendas sobre el Monitoreo con Prometeo / Grafana\r\n-Que tengas experiencia escribiendo sistemas distribuidos usando colas (por ejemplo: RabbitMQ)\r\n-Que tengas experiencia en Google Cloud Compute\r\n-Que hayas trabajado  en la industria fintech",
+        "bold":false,
+        "urgent":false,
+        "color":false,
+        "applications":"1",
+        "subSegment":22,
+        "executive":false,
+        "salaryDescription":"Salario no disponible"
+    }
+    ,
+    {
+        "id":"5d16f86aa044cfb2798c9ba748f113",
+        "title":"BECA DESARROLLO PYTHON",
+        "province": {
+            "id": 50, "value": "Valladolid"
+        }
+        ,
+        "city":"Valladolid",
+        "link":"https://www.infojobs.net/valladolid/beca-desarrollo-python/of-i5d16f86aa044cfb2798c9ba748f113",
+        "category": {
+            "id": 150, "value": "InformÃ¡tica y telecomunicaciones"
+        }
+        ,
+        "contractType": {
+            "id": 0, "value": ""
+        }
+        ,
+        "subcategory": {
+            "id": 3124, "value": "ProgramaciÃ³n"
+        }
+        ,
+        "salaryMin": {
+            "id": 0, "value": ""
+        }
+        ,
+        "salaryMax": {
+            "id": 0, "value": ""
+        }
+        ,
+        "salaryPeriod": {
+            "id": 0, "value": ""
+        }
+        ,
+        "experienceMin": {
+            "id": 1, "value": "No Requerida"
+        }
+        ,
+        "workDay": {
+            "id": 1, "value": "Completa"
+        }
+        ,
+        "study": {
+            "id": 125, "value": "Grado"
+        }
+        ,
+        "published":"2019-10-09T10:41:41.000Z",
+        "updated":"2019-10-09T10:41:41.000Z",
+        "author": {
+            "id": "969253524526202450623215150531", "name": "MADISON MK", "uri": "https://madisonmk.ofertas-trabajo.infojobs.net", "logoUrl": "https://cdn-yams.mpi-internal.com/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/51/51708bdd-a3af-43e0-8ada-d6ad31742104?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NDIwMjYxMzUsImV4cCI6MTYwNTA5ODEzNSwicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzLzUxLzUxNzA4YmRkLWEzYWYtNDNlMC04YWRhLWQ2YWQzMTc0MjEwNCIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.jG6u03AVb8iBpAaKnU7ADxMt1IPNF3_bur5CNCb-zLUVo6wcSgoJj1EqqqHoLBDvHfS3wRF5JHx56fwhwzAO5zs7FWs0RTDmLYtmjz5Su7bQaJWvM6Z8wB1MGDxFh8DezvgpQ5bY2KuKfpccF1GJ3lsBG96E_mZLAX2OYsUQSGMPmenc4xVqwtQhCKpXvrLMAUe5pmbxlViQoZOHwCQdSN9Bl-168iQKnYtJ7cFWYPjg3O9RChADWcb71VBxaZVKgb_k7GwNtPBFKNnXIb6iVmJt3bOllbFiO7HcY5s2Je7wvXnvalnZgNjq4-E91vOTZERCN9LKdp9cKxEgpkGjbw&AccessKeyId=d724d9a53d95a810", "corporateResponsive": false, "showCorporativeHeader": false
+        }
+        ,
+        "requirementMin":"Lo primero es la actitud, que quieras aprender , y que ames l atecnologia tanto como nosotros. \nTambien valoramos si tienes algÃºn conocimiento en: \n experiencia previa en minerÃ­a de texto (Text Analytics) / aprendizaje automÃ¡tico\n(Machine Learning) / Procesamiento del Lenguaje Natural (Natural Language Processing) / VisualizaciÃ³n de datos\nConocimiento prÃ¡ctico de Python",
+        "bold":false,
+        "urgent":false,
+        "color":false,
+        "applications":"0",
+        "subSegment":21,
+        "executive":false,
+        "salaryDescription":"Salario no disponible"
+    }
+    ,
+    {
+        "id":"12dfa51221431db49d4dff43a469d8",
+        "title":"Analista Programador - Python",
+        "province": {
+            "id": 33, "value": "Madrid"
+        }
+        ,
+        "city":"Madrid",
+        "link":"https://www.infojobs.net/madrid/analista-programador-python/of-i12dfa51221431db49d4dff43a469d8",
+        "category": {
+            "id": 150, "value": "InformÃ¡tica y telecomunicaciones"
+        }
+        ,
+        "contractType": {
+            "id": 1, "value": "Indefinido"
+        }
+        ,
+        "subcategory": {
+            "id": 3124, "value": "ProgramaciÃ³n"
+        }
+        ,
+        "salaryMin": {
+            "id": 265, "value": "21.000 â?¬"
+        }
+        ,
+        "salaryMax": {
+            "id": 275, "value": "27.000 â?¬"
+        }
+        ,
+        "salaryPeriod": {
+            "id": 3, "value": "Bruto/aÃ±o"
+        }
+        ,
+        "experienceMin": {
+            "id": 2, "value": "Al menos 1 aÃ±o"
+        }
+        ,
+        "workDay": {
+            "id": 1, "value": "Completa"
+        }
+        ,
+        "study": {
+            "id": 147, "value": "MÃ¡ster"
+        }
+        ,
+        "published":"2019-11-21T15:49:25.000Z",
+        "updated":"2019-11-21T15:49:25.000Z",
+        "author": {
+            "id": "967752524526202450393214854847", "name": "AVANSIS", "uri": "https://www.infojobs.net/avansis/em-i967752524526202450393214854847", "logoUrl": "https://cdn-yams.mpi-internal.com/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/20/20f7941c-6c73-450e-938d-2bc6c1883508?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1MjQ1NjM2MjEsImV4cCI6MTU4NzY0MjgyMSwicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzLzIwLzIwZjc5NDFjLTZjNzMtNDUwZS05MzhkLTJiYzZjMTg4MzUwOCIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.i9Ezu-5gK72eyyMyufuCwRgNr61w95Brab-haTlUfCPV47f-d82MAFIUrvdpO7ymDdxxVEAMpt88bwBJXEBl4kYrltMBJ_LTSC7CJmy6TPmA4bS3zlUojP9qmh9Sil_uSTA8Kxpr4YMrrfVgGHqpy5Di9sYG4J50W4TuUXLymHeu4YWC11VkqTpweBzJShpnJqDhzdo9-JSOvTHlwA6mYWj6prforgPQ0hCM3hqdU7xUGorg9ru_7o4u4NT42-UmQGaInc6mPwBzLf_bQPSFohX0meDhjW_n_kj4Pwu7-4M5JNdjxeUyCil3t6JkE88btgnjd4YB03s6X4aqwntSig&AccessKeyId=d724d9a53d95a810", "corporateResponsive": false, "showCorporativeHeader": false
+        }
+        ,
+        "requirementMin":"",
+        "bold":false,
+        "urgent":false,
+        "color":false,
+        "applications":"0",
+        "subSegment":22,
+        "executive":false,
+        "salaryDescription":"21.000â?¬ - 27.000â?¬ Bruto/aÃ±o"
+    }
+    ,
+    {
+        "id":"a46c1898144af1a572995a4b6fa3bf",
+        "title":"Backend Developer AI (C++ / Python)",
+        "province": {
+            "id": 9, "value": "Barcelona"
+        }
+        ,
+        "city":"L'Hospitalet De Llobregat",
+        "link":"https://www.infojobs.net/l-hospitalet-de-llobregat/backend-developer-ai-c-python/of-ia46c1898144af1a572995a4b6fa3bf",
+        "category": {
+            "id": 150, "value": "InformÃ¡tica y telecomunicaciones"
+        }
+        ,
+        "contractType": {
+            "id": 1, "value": "Indefinido"
+        }
+        ,
+        "subcategory": {
+            "id": 3124, "value": "ProgramaciÃ³n"
+        }
+        ,
+        "salaryMin": {
+            "id": 290, "value": "36.000 â?¬"
+        }
+        ,
+        "salaryMax": {
+            "id": 440, "value": "50.000 â?¬"
+        }
+        ,
+        "salaryPeriod": {
+            "id": 3, "value": "Bruto/aÃ±o"
+        }
+        ,
+        "experienceMin": {
+            "id": 6, "value": "Al menos 2 aÃ±os"
+        }
+        ,
+        "workDay": {
+            "id": 1, "value": "Completa"
+        }
+        ,
+        "study": {
+            "id": 120, "value": "IngenierÃ­a TÃ©cnica"
+        }
+        ,
+        "published":"2019-11-21T14:19:17.000Z",
+        "updated":"2019-11-21T14:19:17.000Z",
+        "author": {
+            "id": "961455524526202250483215455071", "name": "Q-TECH", "uri": "https://www.infojobs.net/q-tech/em-i961455524526202250483215455071", "logoUrl": "https://cdn-yams.mpi-internal.com/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/d5/d57d6492-dede-430d-98de-275c941d5572?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NDEzMDc2MDIsImV4cCI6MTYwNDM3OTYwMiwicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzL2Q1L2Q1N2Q2NDkyLWRlZGUtNDMwZC05OGRlLTI3NWM5NDFkNTU3MiIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.SveMQzNIpH77bktA9RaeBGzHmf7u8JykpuHdvEwjFRFP8jzAdFJcq5M5VsW5-RnNoRz_0iUP4MUK9gxY718zOXTy5NAenDSjVTBtQhe_WIYyOOdU3tImA7tApz2hZw3bVafhd-wyTeQ3OiLEHdyAvVYpeJSSYrm53ptX4Wyz8cIc4uyBC8JFY0iNIff0u9BSpOV0vTobO7k9Atmdt0rSP0gKdd8DylZkidoNbBN_1mEqPReJ3rmKtF3cQEEZmfL1HNiaQMqir3Pgh0hd6PiYRnnXV0ALGtriL_lMYDk7fUgJisIupwGX3U13ybiF60oYlefhSlgofLjFt0k45qUHyA&AccessKeyId=d724d9a53d95a810", "corporateResponsive": false, "showCorporativeHeader": false
+        }
+        ,
+        "requirementMin":"9679; TitulaciÃ³n en ingenierÃ­a informÃ¡tica o experiencia profesional equivalente.\r\n&#9679; 2+ aÃ±os de experiencia trabajando con redes neuronales.\r\n&#9679; Experiencia profesional con TensorFlow, Caffe2.\r\n&#9679; Ã?lgebra lineal\r\n&#9679; Dominio de C++ y/o Python.\r\n&#9679; Experiencia desarrollando productos que tengan una parte de vÃ­deo.\r\n&#9679; Iniciativa. Capaz de trabajar y ser productivo sin mucha direcciÃ³n.\r\n&#9679; Mentalidad positiva y orientada a la resoluciÃ³n de problemas.\r\n&#9679; Facilidad para interactuar con compaÃ±eros y trabajar en equipos multidisciplinarios.\r\nTeam player!\r\n&#9679; Habilidad de comunicaciÃ³n fluida en InglÃ©s y EspaÃ±ol.\r\n&#9679; Trabajo con sistemas de control de versiones: Git, Subversion.",
+        "bold":false,
+        "urgent":false,
+        "color":false,
+        "applications":"0",
+        "subSegment":22,
+        "executive":false,
+        "salaryDescription":"36.000â?¬ - 50.000â?¬ Bruto/aÃ±o"
+    }
+    ,
+    {
+        "id":"fe2ce12afd48bf9f3d0d95d2ae5858",
+        "title":"Programador Python",
+        "province": {
+            "id": 33, "value": "Madrid"
+        }
+        ,
+        "city":"Madrid",
+        "link":"https://www.infojobs.net/madrid/programador-python/of-ife2ce12afd48bf9f3d0d95d2ae5858",
+        "category": {
+            "id": 150, "value": "InformÃ¡tica y telecomunicaciones"
+        }
+        ,
+        "contractType": {
+            "id": 1, "value": "Indefinido"
+        }
+        ,
+        "subcategory": {
+            "id": 3124, "value": "ProgramaciÃ³n"
+        }
+        ,
+        "salaryMin": {
+            "id": 285, "value": "33.000 â?¬"
+        }
+        ,
+        "salaryMax": {
+            "id": 295, "value": "39.000 â?¬"
+        }
+        ,
+        "salaryPeriod": {
+            "id": 3, "value": "Bruto/aÃ±o"
+        }
+        ,
+        "experienceMin": {
+            "id": 3, "value": "Al menos 3 aÃ±os"
+        }
+        ,
+        "workDay": {
+            "id": 1, "value": "Completa"
+        }
+        ,
+        "study": {
+            "id": 55, "value": "FormaciÃ³n Profesional Grado Superior"
+        }
+        ,
+        "published":"2019-11-21T14:17:33.000Z",
+        "updated":"2019-11-21T14:17:33.000Z",
+        "author": {
+            "id": "c5d32524474b8b929b10db3e8a67e0", "name": "Walters People", "uri": "https://www.infojobs.net/walters-people/em-ic5d32524474b8b929b10db3e8a67e0", "logoUrl": "https://cdn-yams.mpi-internal.com/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/06/06ebd808-0404-4548-9120-e9f8d75d544a?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1MjQ1Nzc5ODEsImV4cCI6MTU4NzY1NzE4MSwicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzLzA2LzA2ZWJkODA4LTA0MDQtNDU0OC05MTIwLWU5ZjhkNzVkNTQ0YSIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.RifIZ4JAEws-YkvCI9e0C4PcrvXff972pXLU6pBdVxaOG-exiedLqI3lmOKWwzZOpGJShQC7gOKou-ZjWpNZoSNrVWm13-733_J9fcKWSmXqoK9bhLP25QPINapJXHohImLAsf3OLqyV3KDdDuSDx_03SwP8GiOgT3oz6lobtehBd4cMhhA-Q-SpD4DiBmp78ksNJIs0sMVv2NKWxTXw3FxNL5rWs3py3ZT3ZFYtNiEeM-d-4BFqv3bWQkeOQsuukLePFwT6KM_HLmbhLS2dKnwg0BXvdn0ByCF04UW-QrgJpBKpKpmllPv6D3Nzb-OnAzJcEx2KvL4rWrfrpEYe8w&AccessKeyId=d724d9a53d95a810", "corporateResponsive": false, "showCorporativeHeader": false
+        }
+        ,
+        "requirementMin":"Experiencia con Go\r\nExperiencia con Python\r\nExperiencia con AWS u otro entorno cloud\r\nExperiencia con Ansible",
+        "bold":false,
+        "urgent":false,
+        "color":false,
+        "applications":"0",
+        "subSegment":23,
+        "executive":false,
+        "salaryDescription":"33.000â?¬ - 39.000â?¬ Bruto/aÃ±o"
+    }
+    ,
+    {
+        "id":"9618f35f7a4d30b1a8c4043c0b4bd0",
+        "title":"Senior Python  Developer",
+        "province": {
+            "id": 9, "value": "Barcelona"
+        }
+        ,
+        "city":"Vilassar De Mar",
+        "link":"https://www.infojobs.net/vilassar-de-mar/senior-python-developer/of-i9618f35f7a4d30b1a8c4043c0b4bd0",
+        "category": {
+            "id": 150, "value": "InformÃ¡tica y telecomunicaciones"
+        }
+        ,
+        "contractType": {
+            "id": 1, "value": "Indefinido"
+        }
+        ,
+        "subcategory": {
+            "id": 3124, "value": "ProgramaciÃ³n"
+        }
+        ,
+        "salaryMin": {
+            "id": 0, "value": ""
+        }
+        ,
+        "salaryMax": {
+            "id": 0, "value": ""
+        }
+        ,
+        "salaryPeriod": {
+            "id": 0, "value": ""
+        }
+        ,
+        "experienceMin": {
+            "id": 4, "value": "Al menos 4 aÃ±os"
+        }
+        ,
+        "workDay": {
+            "id": 1, "value": "Completa"
+        }
+        ,
+        "study": {
+            "id": 60, "value": "Ciclo Formativo Grado Superior"
+        }
+        ,
+        "published":"2019-11-21T12:59:35.000Z",
+        "updated":"2019-11-21T12:59:35.000Z",
+        "author": {
+            "id": "98545349545357867379761010293415402984", "name": "VVA Consultants", "uri": "https://www.infojobs.net/vva-consultants/em-i98545349545357867379761010293415402984", "logoUrl": "https://cdn-yams.mpi-internal.com/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/89/891601f7-94b4-4302-b12a-72bbce86c8be?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NDE0OTM5MjksImV4cCI6MTYwNDU2NTkyOSwicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzLzg5Lzg5MTYwMWY3LTk0YjQtNDMwMi1iMTJhLTcyYmJjZTg2YzhiZSIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.Kd3VrT62NhOCuHFxAWeHfVt5meUUZS1LUJFkAtI0XX4woVPaYwY8LEpw7UhzmqDsGinHpU5fAeL10AfwwHZepjpBJHeED6g5zakB0D7VF1moEatKauzXdFNdHVeH_lj4TznT5LZhGJqZFHWDkOvxRB18LMtqJwjIWhZXHVOeS7OmD8pAUmnOa8cW36WC_d7a4mmLUzj4ujN3uh-aW-UxUwOAJBxqskgD0DQly3fWB-SVyqAeY6EAf-CPVuNqI1N_eR8-BUOfIwSRqZZpu1wzBcNVlchfcNM_C517SbUi01AuUTKk_JnvvW1kbibfdW-370VNuZTa3GqEzGuSglRg_w&AccessKeyId=d724d9a53d95a810", "corporateResponsive": false, "showCorporativeHeader": false
+        }
+        ,
+        "requirementMin":"-Experiencia mÃ­nima 4 aÃ±os en desarrollo.\r\n- Experiencia mÃ­nima 1 aÃ±o demostrable en desarrollo Python.\r\n- Conocimientos del framework Qt y de las librerÃ­as Tk para desarrollar GUI con estas herramientas.\r\n- Valorable residencia en comarca del Maresme",
+        "bold":false,
+        "urgent":false,
+        "color":false,
+        "applications":"0",
+        "subSegment":22,
+        "executive":false,
+        "salaryDescription":"Salario no disponible"
+    }
+    ,
+    {
+        "id":"3302848e524584ab9ec81c691a62f8",
+        "title":"Programador web - Python/Django",
+        "province": {
+            "id": 20, "value": "Las Palmas"
+        }
+        ,
+        "city":"Las Palmas De Gran Canaria",
+        "link":"https://www.infojobs.net/las-palmas-de-gran-canaria/programador-web-python-django/of-i3302848e524584ab9ec81c691a62f8",
+        "category": {
+            "id": 150, "value": "InformÃ¡tica y telecomunicaciones"
+        }
+        ,
+        "contractType": {
+            "id": 1, "value": "Indefinido"
+        }
+        ,
+        "subcategory": {
+            "id": 3124, "value": "ProgramaciÃ³n"
+        }
+        ,
+        "salaryMin": {
+            "id": 265, "value": "21.000 â?¬"
+        }
+        ,
+        "salaryMax": {
+            "id": 280, "value": "30.000 â?¬"
+        }
+        ,
+        "salaryPeriod": {
+            "id": 3, "value": "Bruto/aÃ±o"
+        }
+        ,
+        "experienceMin": {
+            "id": 3, "value": "Al menos 3 aÃ±os"
+        }
+        ,
+        "workDay": {
+            "id": 1, "value": "Completa"
+        }
+        ,
+        "study": {
+            "id": 60, "value": "Ciclo Formativo Grado Superior"
+        }
+        ,
+        "published":"2019-11-14T10:59:34.000Z",
+        "updated":"2019-11-21T11:00:03.000Z",
+        "author": {
+            "id": "98555450505950677265807015244985301667", "name": "CHAPP GLOBAL SL", "uri": "https://www.infojobs.net/chapp-global-sl/em-i98555450505950677265807015244985301667", "corporateResponsive": false, "showCorporativeHeader": false
+        }
+        ,
+        "requirementMin":"Experiencia en desarrollo de aplicaciones web para gestiÃ³n de negocios",
+        "bold":false,
+        "urgent":false,
+        "color":false,
+        "applications":"11",
+        "subSegment":22,
+        "executive":false,
+        "salaryDescription":"21.000â?¬ - 30.000â?¬ Bruto/aÃ±o"
+    }
+    ,
+    {
+        "id":"cf3b52373347848661266c9432dd41",
+        "title":"Programador Python / Django",
+        "province": {
+            "id": 33, "value": "Madrid"
+        }
+        ,
+        "city":"Madrid",
+        "link":"https://www.infojobs.net/madrid/programador-python-django/of-icf3b52373347848661266c9432dd41",
+        "category": {
+            "id": 150, "value": "InformÃ¡tica y telecomunicaciones"
+        }
+        ,
+        "contractType": {
+            "id": 1, "value": "Indefinido"
+        }
+        ,
+        "subcategory": {
+            "id": 3124, "value": "ProgramaciÃ³n"
+        }
+        ,
+        "salaryMin": {
+            "id": 0, "value": ""
+        }
+        ,
+        "salaryMax": {
+            "id": 0, "value": ""
+        }
+        ,
+        "salaryPeriod": {
+            "id": 0, "value": ""
+        }
+        ,
+        "experienceMin": {
+            "id": 2, "value": "Al menos 1 aÃ±o"
+        }
+        ,
+        "workDay": {
+            "id": 1, "value": "Completa"
+        }
+        ,
+        "study": {
+            "id": 10, "value": "Sin estudios"
+        }
+        ,
+        "published":"2019-11-21T09:04:49.000Z",
+        "updated":"2019-11-21T09:04:49.000Z",
+        "author": {
+            "id": "825552424531206950134505551813", "name": "TuyÃº Technology", "uri": "https://tuyu.ofertas-trabajo.infojobs.net", "logoUrl": "https://cdn-yams.mpi-internal.com/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/22/2296e1a2-6b08-46b1-baf7-297302464949?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1MjQ1NTg2MTQsImV4cCI6MTU4NzYzNzgxNCwicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzLzIyLzIyOTZlMWEyLTZiMDgtNDZiMS1iYWY3LTI5NzMwMjQ2NDk0OSIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.K5KUO1w4qsrUnr8os0NEZZOHop2JpVlr-UTmDtSahe-sB8gs2fBltH7No1l8eatxfbLKc42k8Ndn5ASXZCkwnbTwqFkURY1TpEN0CiaZ3r8rf9GcxfTC7omDot4rlGv0EisaOmh0FUhlZVbR-K9rLIa8UMsFDC6DeueeFH2bkhYVJlqDj-larACvZ7HcUTkd_qVRPQfz1CgjR_Q1gALx4R6Au0Vu2qggOtFQgQ6OMTbAkudNhKDKdVsPx4dxIyh94RyV-WVpTIhfmYXoYWeG2BeQv3Yja4Ak3711J7zOK0QsWncCslCIPvzGUi8nf0I_tslB15lTaNZuT7Mp7h-9RQ&AccessKeyId=d724d9a53d95a810", "corporateResponsive": false, "showCorporativeHeader": false
+        }
+        ,
+        "requirementMin":"",
+        "bold":false,
+        "urgent":false,
+        "color":false,
+        "applications":"0",
+        "subSegment":23,
+        "executive":false,
+        "salaryDescription":"Salario no disponible"
+    }
+    ]
+}
