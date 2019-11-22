@@ -19,7 +19,7 @@ huella digital falsa y la enviamos para recibir cookies con las que
 poder navegar libremente, aparte de headers especificos.
 """
 
-def jump_destil(session, url_inicial):
+def jump_distil(session, url_inicial):
 
     # Quitar warnings de consola
     urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
@@ -201,7 +201,7 @@ def jump_destil(session, url_inicial):
 
 def main():
     s = requests.Session()
-    jump_destil(s, 'https://www.infojobs.net')
+    jump_distil(s, 'https://www.infojobs.net')
     print('pasando proxyes por burp, por si falla viso, es esto')
     proxies = {"http": "http://127.0.0.1:8080", "https": "http://127.0.0.1:8080"}
     s.proxies.update(proxies)
