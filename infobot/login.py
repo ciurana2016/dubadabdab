@@ -62,18 +62,3 @@ def info_login(email, password, session):
         'redirect_uri': 'https://developer.infojobs.net/test-console/continue-request.xhtml'
     }
     r = s.post(url, data=api_approval_data, verify=False)
-
-    # Peticion a la "API"
-    url = 'https://developer.infojobs.net/test-console/execute.xhtml'
-    api_form_data = {
-        'urifield': 'https://api.infojobs.net/api/2/candidate',
-        'versionfield': '2',
-        'methodfield': 'GET',
-        'hmethodfield': 'GET',
-        'operationEntityField': '-candidate',
-        'attachment_type': 'Local',
-        'paramsAttached': '1',
-        'headersAttached': '1',
-        'bodyContentType': 'json',
-    }
-    r = s.post(url, data=api_form_data, verify=False)
