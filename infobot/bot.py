@@ -4,7 +4,9 @@ import requests
 from output import output
 from getpass import getpass
 
+from login import info_login
 from distil import jump_distil
+
 
 
 
@@ -65,8 +67,19 @@ class InfoBot(object):
                 \nCerrando bot.',
                 'r'
             )
+            exit()
 
-        # Hacemos login
+        # Hacemos login y pedimos permisos api
+        try:
+            info_login(self.email, self.password, self.session)
+            output('Login y credenciales API ok!', 'verde')
+        except:
+            output(
+                'Error haciendo login, engancha a burp y averigua el problema. \
+                \nCerrando bot.',
+                'r'
+            )
+            exit()
 
 
 def main():
