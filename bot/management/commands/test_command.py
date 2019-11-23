@@ -17,8 +17,7 @@ class Command(BaseCommand):
 
         ib = InfoBot(login)
 
-        """
-            Mete un monton de ofertas en la base de datos :D
+        """            Mete un monton de ofertas en la base de datos :D
         """
         # python_offers = ib.list_offers('python')
         # for page in python_offers:
@@ -33,5 +32,6 @@ class Command(BaseCommand):
 
         """
             Aplica a una oferta con una carta especifica.
+            TODO, models offer si aplica y da error guardarlo.
         """
         

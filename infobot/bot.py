@@ -380,7 +380,15 @@ class InfoBot(object):
         soup = BeautifulSoup(response.text, 'html.parser')
         html_elem = soup.find(id='formattedBody')
         data = html_elem.string
-        self.last_json = json.loads(data)
+        try:
+            self.last_json = json.loads(data)
+        except:
+            output(
+                'Error inesperado, no se encontro el elemtento id="formatetedBody".\
+                \nSaliendo',
+                'v'
+            )
+            exit()
 
         if paginating:
             return self.last_json
@@ -422,12 +430,53 @@ class InfoBot(object):
         response = self.api_request(request_data)
 
         return response
+
+    def offer_application(self, offer_id, coverletter=False):
+        """
+            Aplica a una oferta de trabajo, puede hacerse con carta
+            de presentacion.
+            coverletter = {
+                'coverLetter':{
+                    'name': 'Carta 1',
+                    'text': 'My old coverletter with some changes that I could like to save.',
+              }
+            }
+            
+            Puede dar varios errores, los guardamos. (si no pasas coverletter peta)
+        """
+
+        if coverletter and len(coverletter['coverLetter']['text']) >= 4000:
+            output(
+                'El texto de la carta de presentacion es mayor a 4000 caracteres \
+                de largo, cambialo e intentalo de nuevo.\n Saliendo.',
+                'r'
+            )
+            exit()
+
+        url = self.API_URL + '/4/offer/' + offer_id + '/application '
+        body_request = coverletter if coverletter else {}
+
+        request_data = {
+            'urifield': url,
+            'methodfield': 'POST',
+            'textRequired': 'yes',
+            'body_request': json.dumps(body_request)
+        }
+
+        response = self.api_request(request_data)
+        return response
         
 
 def main():
     ib = InfoBot()
-    ofertas_python = ib.list_offers('python')
-    print(len(ofertas_python))
+    coverletter = {
+        'coverLetter':{
+            'name': 'test_name',
+            'text': 'test_text'
+      }
+    }
+    ib.offer_application('b02ecc66c24cb9976631d4b6340bfb', coverletter)
+    print(ib.last_json)
 
 if __name__ == '__main__':
     main()
