@@ -10,13 +10,14 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
 
-        login = {
-            'email': 'admin@victorciurana.com',
-            'password': '',
-            'burp': False
-        }
+        # login = {
+        #     'email': 'admin@victorciurana.com',
+        #     'password': '',
+        #     'burp': False
+        # }
 
-        ib = InfoBot(login)
+        # ib = InfoBot(login)
+        ib = InfoBot()
 
         """            Mete un monton de ofertas en la base de datos :D
         """
@@ -37,7 +38,11 @@ class Command(BaseCommand):
 
         """
             Aplica a una oferta con una carta especifica.
-            TODO, guardar response entera
-            TODO for o in offers apply with letter
+            TODO, guardar response entera if applied (en save method)
         """
-        
+        coverletter = {
+            'coverLetter':{
+                'name': 'test_name',
+                'text': 'test_text'
+          }
+        }
