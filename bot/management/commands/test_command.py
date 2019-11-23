@@ -1,4 +1,5 @@
 from django.core.management.base import BaseCommand, CommandError
+from django.db import IntegrityError
 
 from infobot.bot import InfoBot
 from bot.models import Offer
@@ -19,19 +20,24 @@ class Command(BaseCommand):
 
         """            Mete un monton de ofertas en la base de datos :D
         """
-        # python_offers = ib.list_offers('python')
-        # for page in python_offers:
-        #     for offer in page['offers']:
-        #         Offer.objects.create(
-        #             _id = offer['id'],
-        #             title = offer['title'],
-        #             city = offer['city'],
-        #             link = offer['link'],
-        #             salaryDescription = offer['salaryDescription']
-        #         )
+        python_offers = ib.list_offers('python')
+        for page in python_offers:
+            for offer in page['offers']:
+                try:
+                    Offer.objects.create(
+                        _id = offer['id'],
+                        title = offer['title'],
+                        city = offer['city'],
+                        link = offer['link'],
+                        salaryDescription = offer['salaryDescription']
+                    )
+                except IntegrityError:
+                    # Duplicado
+                    pass
 
         """
             Aplica a una oferta con una carta especifica.
-            TODO, models offer si aplica y da error guardarlo.
+            TODO, guardar response entera
+            TODO for o in offers apply with letter
         """
         

@@ -475,8 +475,6 @@ def main():
             'text': 'test_text'
       }
     }
-    ib.offer_application('b02ecc66c24cb9976631d4b6340bfb', coverletter)
-    print(ib.last_json)
 
 if __name__ == '__main__':
     main()
