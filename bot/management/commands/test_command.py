@@ -39,6 +39,8 @@ class Command(BaseCommand):
         """
             Aplica a una oferta con una carta especifica.
             TODO, guardar response entera if applied (en save method)
+            Y ale se puede hacer un comando para aplicar a saco :D
+            Pero antes test aplicar a uno solo.
         """
         coverletter = {
             'coverLetter':{
