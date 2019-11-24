@@ -353,7 +353,7 @@ class InfoBot(object):
             exit()
 
     def sleep(self):
-        time.sleep(uniform(0.10, 1.5))
+        time.sleep(uniform(1.10, 2.5))
 
     def api_request(self, request_data, paginating=False):
 
@@ -393,21 +393,26 @@ class InfoBot(object):
         if paginating:
             return self.last_json
 
-        if 'currentPage' in self.last_json.keys():
-            all_pages = []
-            for n in range(1, self.last_json['totalPages']):
-                if n == 1:
-                    all_pages.append(self.last_json)
-                else:
-                    request_data['urifield'] = request_data['urifield'].replace(
-                        '&page=' + str(n-1),
-                        '&page=' + str(n)
-                    )
-                    response = self.api_request(request_data, paginating=True)
-                    all_pages.append(response)
-            return all_pages
+        try:
+            if 'currentPage' in self.last_json.keys():
+                all_pages = []
+                for n in range(1, self.last_json['totalPages']):
+                    if n == 1:
+                        all_pages.append(self.last_json)
+                    else:
+                        request_data['urifield'] = request_data['urifield'].replace(
+                            '&page=' + str(n-1),
+                            '&page=' + str(n)
+                        )
+                        response = self.api_request(request_data, paginating=True)
+                        all_pages.append(response)
+                return all_pages
 
-        else:
+            else:
+                return self.last_json
+        except AttributeError:
+            # Puede dar un error en .keys() si la api devuelve una lista
+            # en vez de un diccionario.
             return self.last_json
 
 
@@ -453,6 +458,39 @@ class InfoBot(object):
             )
             exit()
 
+        # [1] Miramos primero si la oferta tiene preguntas a las que responder
+        url = self.API_URL + '/7/offer/' + offer_id
+        request_data = {
+            'urifield': url,
+            'methodfield': 'GET',
+        }
+        response = self.api_request(request_data)
+
+        if response['hasKillerQuestions']:
+            url = self.API_URL + '/1/offer/' + offer_id + '/killerquestion'
+            request_data['urifield'] = url
+            killer_questions = self.api_request(request_data)
+            coverletter['offerKillerQuestions'] = []
+            for k in killer_questions:
+                new_dic = {
+                    'id': k['id'],
+                    'answerId': k['answers'][0]['id']
+                }
+                coverletter['offerKillerQuestions'].append(new_dic)
+
+        if response['hasOpenQuestions']:
+            url = self.API_URL + '/1/offer/' + offer_id + '/openquestion'
+            request_data['urifield'] = url
+            open_questions = self.api_request(request_data)
+            coverletter['offerOpenQuestions'] = []
+            for o in open_questions:
+                new_dic = {
+                    'id': o['id'],
+                    'answerId': o['answers'][0]['id']
+                }
+                coverletter['offerOpenQuestions'].append(new_dic)
+
+        # [2] Aplicar a oferta de empleo (respondiendo preguntas de ser necesario)
         url = self.API_URL + '/4/offer/' + offer_id + '/application '
         body_request = coverletter if coverletter else {}
 

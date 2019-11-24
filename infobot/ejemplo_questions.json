@@ -1,0 +1,52 @@
+[ 
+    {
+        "id": 36586987070,
+        "question": "¿Cuál es tu nivel de inglés?",
+        "answers": [
+            {
+                "id": 36586987076,
+                "answer": "Nativo"
+            }
+            ,
+            {
+                "id": 36586987078,
+                "answer": "Medio/Alto"
+            }
+            ,
+            {
+                "id": 36586987084,
+                "answer": "Medio bajo, no puedo mantener una conversación fluida"
+            }
+            ,
+            {
+                "id": 36586987094,
+                "answer": "No sé inglés"
+            }
+        ]
+    },
+    {
+        "id": 36586987070,
+        "question": "Otra pregunta",
+        "answers": [
+            {
+                "id": 36586981234,
+                "answer": "Otra respuesta"
+            }
+            ,
+            {
+                "id": 36586987078,
+                "answer": "Medio/Alto"
+            }
+            ,
+            {
+                "id": 36586987084,
+                "answer": "Medio bajo, no puedo mantener una conversación fluida"
+            }
+            ,
+            {
+                "id": 36586987094,
+                "answer": "No sé inglés"
+            }
+        ]
+    },
+]
