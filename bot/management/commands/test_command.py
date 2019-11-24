@@ -19,7 +19,10 @@ class Command(BaseCommand):
         # ib = InfoBot(login)
         ib = InfoBot()
 
-        """            Mete un monton de ofertas en la base de datos :D
+        """            
+            Mete un monton de ofertas en la base de datos :D
+            Mira si la oferta tiene preguntas y las guarda con respuestas
+            para luego.
         """
         python_offers = ib.list_offers('python')
         for page in python_offers:
@@ -37,14 +40,37 @@ class Command(BaseCommand):
                     pass
 
         """
-            Aplica a una oferta con una carta especifica.
-            TODO, guardar response entera if applied (en save method)
-            Y ale se puede hacer un comando para aplicar a saco :D
-            Pero antes test aplicar a uno solo.
+            Aplica  aoferta especifica 
+            Para testear respuesta automaticas a preguntas
+            fe6a3f9e674c6abb7341e9a1f6ed7a
         """
-        coverletter = {
-            'coverLetter':{
-                'name': 'test_name',
-                'text': 'test_text'
-          }
-        }
+
+        # offer_with_question = Offer.objects.get(_id='fe6a3f9e674c6abb7341e9a1f6ed7a')
+
+        # coverletter = {
+        #     'coverLetter':{
+        #         'name': 'test_name',
+        #         'text': 'Test automatizado con python, no responder.'
+        #   }
+        # }
+
+
+        """
+            Aplica a saco.
+        """
+        # coverletter = {
+        #     'coverLetter':{
+        #         'name': 'test_name',
+        #         'text': 'Test automatizado con python, no responder.'
+        #   }
+        # }
+
+        # for offer in Offer.objects.all()[::-1]:
+        #     if not offer.applied:
+        #         ib.offer_application(offer._id, coverletter)
+        #         offer.applied = True
+        #         offer.response_text = ib.last_json
+        #         offer.save()
+        #         break
+
+        # print('EOF')
