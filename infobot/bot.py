@@ -486,7 +486,7 @@ class InfoBot(object):
             for o in open_questions:
                 new_dic = {
                     'id': o['id'],
-                    'answerId': 'Respuesta automatica con python'
+                    'answer': 'Respuesta automatica con python'
                 }
                 coverletter['offerOpenQuestions'].append(new_dic)
 
